@@ -1,0 +1,168 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.804; Version 2009; 64bit' Language: 'en' Physical Memory: 32692 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Documents/Unity Projects/_Game Jams/ITTHYNK Game Jam/Git/ITTHYNK/SSS_Taxi Game_ITTHYNK
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62392
+Successfully changed project path to: E:/Documents/Unity Projects/_Game Jams/ITTHYNK Game Jam/Git/ITTHYNK/SSS_Taxi Game_ITTHYNK
+E:/Documents/Unity Projects/_Game Jams/ITTHYNK Game Jam/Git/ITTHYNK/SSS_Taxi Game_ITTHYNK
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 22.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Documents/Unity Projects/_Game Jams/ITTHYNK Game Jam/Git/ITTHYNK/SSS_Taxi Game_ITTHYNK/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001901 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 20.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.640 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002340 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.1 MB.
+System memory in use after: 65.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1819.
+Total: 1.585100 ms (FindLiveObjects: 0.117700 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.372500 ms  DeleteObjects: 0.062100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(f71c10b50f4e15d46b591526e571f0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(f71c10b50f4e15d46b591526e571f0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b6ebfb745a3ffe33007ff6f7c523fe') in 0.008765 seconds
+  Import took 0.010736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.051123 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.009081 seconds
+  Import took 0.010875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.340914 seconds.
+  path: Assets/Vedanth (V Master)
+  artifactKey: Guid(232d7946ce219f7448aaab051e254c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master) using Guid(232d7946ce219f7448aaab051e254c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1dd8c92888b0363a03e03d16b02d7e') in 0.006315 seconds
+  Import took 0.008139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.568459 seconds.
+  path: Assets/Jerome (OWL7seven)
+  artifactKey: Guid(60ab15f75d59ce74cb6701c51b6a5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven) using Guid(60ab15f75d59ce74cb6701c51b6a5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa98107a4866380922cd959fb7f17150') in 0.004886 seconds
+  Import took 0.006770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.867227 seconds.
+  path: Assets/Athi (TheBlueStuff)
+  artifactKey: Guid(48b1e3eee4d616d489629674b979e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff) using Guid(48b1e3eee4d616d489629674b979e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe432c270dc27661463a736fa6cc43ed') in 0.005003 seconds
+  Import took 0.006910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.651885 seconds.
+  path: Assets/Lesedi (Mocha)
+  artifactKey: Guid(d3dd53b2f82f3574793be28f82696b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lesedi (Mocha) using Guid(d3dd53b2f82f3574793be28f82696b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f185b26f42c7c42619a9fbdfd4c73c8a') in 0.004576 seconds
+  Import took 0.006556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.757393 seconds.
+  path: Assets/Koketso (Koketso)
+  artifactKey: Guid(e4d9ec670dbef6b409329c1038af092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koketso (Koketso) using Guid(e4d9ec670dbef6b409329c1038af092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5107f4a91a84a385d142cc8752bf41e5') in 0.004855 seconds
+  Import took 0.006777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.410302 seconds.
+  path: Assets/Athi (TheBlueStuff)/Athi.unity
+  artifactKey: Guid(98d9dce4921800b4c8b28fb12e8635fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Athi.unity using Guid(98d9dce4921800b4c8b28fb12e8635fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1579c77713590d3c86f6388c489d02c') in 0.010693 seconds
+  Import took 0.012527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.672548 seconds.
+  path: Assets/Jerome (OWL7seven)/Jerome.unity
+  artifactKey: Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Jerome.unity using Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e506487859f0bdbd7d133bff68eefd9') in 0.005616 seconds
+  Import took 0.007504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.255400 seconds.
+  path: Assets/Koketso (Koketso)/Koketso.unity
+  artifactKey: Guid(e96d46529d797534d939e99aba899d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koketso (Koketso)/Koketso.unity using Guid(e96d46529d797534d939e99aba899d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea69a7b4df0da8f51241cc5ce498fe6') in 0.005303 seconds
+  Import took 0.007344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.404713 seconds.
+  path: Assets/Lesedi (Mocha)/Lesedi.unity
+  artifactKey: Guid(084d4a38eff59fc408f86e8c06f95c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lesedi (Mocha)/Lesedi.unity using Guid(084d4a38eff59fc408f86e8c06f95c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b481f9bdbbd054d44e350224d7dedf14') in 0.005786 seconds
+  Import took 0.007615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.704572 seconds.
+  path: Assets/Vedanth (V Master)/Vedanth.unity
+  artifactKey: Guid(5c4073fee184a0e41b33cfae714d741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master)/Vedanth.unity using Guid(5c4073fee184a0e41b33cfae714d741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3adaed517763e90fe1a00f8ca060c0') in 0.010322 seconds
+  Import took 0.012108 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
