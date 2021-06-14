@@ -7,6 +7,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 #if MULTIOSCONTROLS
     using MOSC;
@@ -15,7 +16,9 @@ using UnityEngine;
 namespace VehicleBehaviour {
     [RequireComponent(typeof(Rigidbody))]
     public class WheelVehicle : MonoBehaviour {
-        
+
+        InputMain controls;
+
         [Header("Inputs")]
     #if MULTIOSCONTROLS
         [SerializeField] PlayerNumber playerId;
@@ -25,7 +28,7 @@ namespace VehicleBehaviour {
         public bool IsPlayer { get{ return isPlayer; } set{ isPlayer = value; } } 
 
         // Input names to read using GetAxis
-        [SerializeField] string throttleInput = "Throttle";
+        [SerializeField] string throttleInput =    "Throttle";
         [SerializeField] string brakeInput = "Brake";
         [SerializeField] string turnInput = "Horizontal";
         [SerializeField] string jumpInput = "Jump";
@@ -235,6 +238,7 @@ namespace VehicleBehaviour {
                 if (throttleInput != "" && throttleInput != null)
                 {
                     throttle = GetInput(throttleInput) - GetInput(brakeInput);
+                   // throttle = controls.PlayerTaxi.Accelerate.ReadValue<> - GetInput(brakeInput);
                 }
                 // Boost
                 boosting = (GetInput(boostInput) > 0.5f);
@@ -361,8 +365,26 @@ namespace VehicleBehaviour {
 #if MULTIOSCONTROLS
         return MultiOSControls.GetValue(input, playerId);
 #else
-        return Input.GetAxis(input);
+            return Input.GetAxis(input);
+            //return controls.PlayerTaxi.Get();
 #endif
         }
+
+
+        //Vedanth's edit
+    /*    private void Awake()
+        {
+            controls = new InputMain();
+
+                throttleInput = controls.PlayerTaxi.Accelerate.ToString();
+                brakeInput = controls.PlayerTaxi.Reverse.name;
+                turnInput = controls.PlayerTaxi.Turning.name;
+                jumpInput = "Jump";
+            driftInput = controls.PlayerTaxi.Drift.name; 
+                boostInput = "Boost";
+
+            
+        }*/
+
     }
 }
