@@ -1,168 +1,1864 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.804; Version 2009; 64bit' Language: 'en' Physical Memory: 32692 MB
+OS: 'Windows 10 Pro; OS build 19042.685; Version 2009; 64bit' Language: 'en' Physical Memory: 12229 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+G:\UnityEditors\2020.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/Documents/Unity Projects/_Game Jams/ITTHYNK Game Jam/Git/ITTHYNK/SSS_Taxi Game_ITTHYNK
+G:/ITTHYNK/ITTHYNK/SSS_Taxi Game_ITTHYNK
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62392
-Successfully changed project path to: E:/Documents/Unity Projects/_Game Jams/ITTHYNK Game Jam/Git/ITTHYNK/SSS_Taxi Game_ITTHYNK
-E:/Documents/Unity Projects/_Game Jams/ITTHYNK Game Jam/Git/ITTHYNK/SSS_Taxi Game_ITTHYNK
+61210
+Successfully changed project path to: G:/ITTHYNK/ITTHYNK/SSS_Taxi Game_ITTHYNK
+G:/ITTHYNK/ITTHYNK/SSS_Taxi Game_ITTHYNK
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 174.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Documents/Unity Projects/_Game Jams/ITTHYNK Game Jam/Git/ITTHYNK/SSS_Taxi Game_ITTHYNK/Assets
+[Subsystems] Discovering subsystems at path G:/UnityEditors/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/ITTHYNK/ITTHYNK/SSS_Taxi Game_ITTHYNK/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
     Vendor:   
-    VRAM:     8010 MB
-    Driver:   27.21.14.6589
+    VRAM:     4043 MB
+    Driver:   27.21.14.6192
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Mono path[0] = 'G:/UnityEditors/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'G:/UnityEditors/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/UnityEditors/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001901 seconds.
+Register platform support module: G:/UnityEditors/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.124921 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 20.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.640 seconds
+- Completed reload, in  4.333 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002340 seconds.
+Registered in 0.501072 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.853 seconds
+- Completed reload, in  3.578 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.0 MB.
+System memory in use after: 79.1 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1819.
-Total: 1.585100 ms (FindLiveObjects: 0.117700 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.372500 ms  DeleteObjects: 0.062100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(f71c10b50f4e15d46b591526e571f0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(f71c10b50f4e15d46b591526e571f0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b6ebfb745a3ffe33007ff6f7c523fe') in 0.008765 seconds
-  Import took 0.010736 seconds .
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1847.
+Total: 2.721994 ms (FindLiveObjects: 0.172438 ms CreateObjectMapping: 0.096311 ms MarkObjects: 2.353511 ms  DeleteObjects: 0.093867 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.051123 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.009081 seconds
-  Import took 0.010875 seconds .
+  path: Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/prefabs
+  artifactKey: Guid(b61c1bca20d59d74297e5bd790793d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/prefabs using Guid(b61c1bca20d59d74297e5bd790793d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f7ccf9e8cb39f7b46cacdf66b0b1b7') in 0.014010 seconds
+  Import took 0.018045 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.340914 seconds.
-  path: Assets/Vedanth (V Master)
-  artifactKey: Guid(232d7946ce219f7448aaab051e254c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master) using Guid(232d7946ce219f7448aaab051e254c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1dd8c92888b0363a03e03d16b02d7e') in 0.006315 seconds
-  Import took 0.008139 seconds .
+  Time since last request: 0.485060 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/prefabs/TT_demo_police.prefab
+  artifactKey: Guid(47a3741b253f088469eedd6d403dd89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/prefabs/TT_demo_police.prefab using Guid(47a3741b253f088469eedd6d403dd89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa0a5ad846b0684a476a4ddfa265f6f') in 0.272438 seconds
+  Import took 0.275305 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.568459 seconds.
-  path: Assets/Jerome (OWL7seven)
-  artifactKey: Guid(60ab15f75d59ce74cb6701c51b6a5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven) using Guid(60ab15f75d59ce74cb6701c51b6a5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa98107a4866380922cd959fb7f17150') in 0.004886 seconds
-  Import took 0.006770 seconds .
+  Time since last request: 0.701801 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/prefabs/TT_demo_zombie.prefab
+  artifactKey: Guid(b14953694d54eea4eb66f453e525024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/prefabs/TT_demo_zombie.prefab using Guid(b14953694d54eea4eb66f453e525024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db9bbc0d017836cb41768b8c1b31a20') in 0.014833 seconds
+  Import took 0.017626 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.867227 seconds.
-  path: Assets/Athi (TheBlueStuff)
-  artifactKey: Guid(48b1e3eee4d616d489629674b979e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Athi (TheBlueStuff) using Guid(48b1e3eee4d616d489629674b979e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe432c270dc27661463a736fa6cc43ed') in 0.005003 seconds
-  Import took 0.006910 seconds .
+  Time since last request: 0.002386 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/prefabs/TT_demo_zombie.prefab
+  artifactKey: Guid(b14953694d54eea4eb66f453e525024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/prefabs/TT_demo_zombie.prefab using Guid(b14953694d54eea4eb66f453e525024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db9bbc0d017836cb41768b8c1b31a20') in 0.007088 seconds
+  Import took 0.010332 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.651885 seconds.
-  path: Assets/Lesedi (Mocha)
-  artifactKey: Guid(d3dd53b2f82f3574793be28f82696b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lesedi (Mocha) using Guid(d3dd53b2f82f3574793be28f82696b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f185b26f42c7c42619a9fbdfd4c73c8a') in 0.004576 seconds
-  Import took 0.006556 seconds .
+  Time since last request: 2.008561 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/sample_scene
+  artifactKey: Guid(a0f0a08a308fa5f46a988e7a6059e945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/sample_scene using Guid(a0f0a08a308fa5f46a988e7a6059e945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7ca5ce93ff42f39e7e10404a01cebc') in 0.009636 seconds
+  Import took 0.012238 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.757393 seconds.
-  path: Assets/Koketso (Koketso)
-  artifactKey: Guid(e4d9ec670dbef6b409329c1038af092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Koketso (Koketso) using Guid(e4d9ec670dbef6b409329c1038af092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5107f4a91a84a385d142cc8752bf41e5') in 0.004855 seconds
-  Import took 0.006777 seconds .
+  Time since last request: 7.204917 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector
+  artifactKey: Guid(38d3b16df71772649a7a0029b5ee538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector using Guid(38d3b16df71772649a7a0029b5ee538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe10f6d2a65e8b3aba75c7e6f14a05f5') in 0.014044 seconds
+  Import took 0.016763 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.410302 seconds.
-  path: Assets/Athi (TheBlueStuff)/Athi.unity
-  artifactKey: Guid(98d9dce4921800b4c8b28fb12e8635fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Athi (TheBlueStuff)/Athi.unity using Guid(98d9dce4921800b4c8b28fb12e8635fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1579c77713590d3c86f6388c489d02c') in 0.010693 seconds
-  Import took 0.012527 seconds .
+  Time since last request: 198.956655 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Classic_16.FBX
+  artifactKey: Guid(000e268602069ee41b503cc210240ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Classic_16.FBX using Guid(000e268602069ee41b503cc210240ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4bbdef856c210c5564854283021c60') in 0.741411 seconds
+  Import took 0.744747 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.672548 seconds.
+  Time since last request: 21.771225 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars
+  artifactKey: Guid(da2173238af4f384aad37281c5ffdbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars using Guid(da2173238af4f384aad37281c5ffdbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243a9db3373074e92a0005b7fb1a5c65') in 0.016872 seconds
+  Import took 0.022548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001054 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars
+  artifactKey: Guid(da2173238af4f384aad37281c5ffdbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars using Guid(da2173238af4f384aad37281c5ffdbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243a9db3373074e92a0005b7fb1a5c65') in 0.009422 seconds
+  Import took 0.021706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.723993 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Attachments
+  artifactKey: Guid(a9914e46b9adf374c84af9655bd02be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Attachments using Guid(a9914e46b9adf374c84af9655bd02be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3055aca47dd9d366e90b285faf162739') in 0.011865 seconds
+  Import took 0.016091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002532 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Attachments
+  artifactKey: Guid(a9914e46b9adf374c84af9655bd02be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Attachments using Guid(a9914e46b9adf374c84af9655bd02be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3055aca47dd9d366e90b285faf162739') in 0.003829 seconds
+  Import took 0.007193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.723367 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Wheels
+  artifactKey: Guid(c2900cad17760df4f9b8c40fdfcab70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Wheels using Guid(c2900cad17760df4f9b8c40fdfcab70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae978577465448473b03d714a414e0b') in 0.017218 seconds
+  Import took 0.021667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.557354 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Textures
+  artifactKey: Guid(5ed21e310eaefd942b4449175ff16e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Textures using Guid(5ed21e310eaefd942b4449175ff16e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd5c7a77d42e686cdda367eceb0d854') in 0.024691 seconds
+  Import took 0.037522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.321173 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic
+  artifactKey: Guid(e14651f9eee4aa84daa6a660d130e065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic using Guid(e14651f9eee4aa84daa6a660d130e065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ceaf0ff7cff7ee28e8d8bf3a93cdf04') in 0.047905 seconds
+  Import took 0.051994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.348959 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Textures
+  artifactKey: Guid(e04a0ae68508d594eb3b9a1a6aab80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Textures using Guid(e04a0ae68508d594eb3b9a1a6aab80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1054be483e24eb10586e6fd47568749a') in 0.006062 seconds
+  Import took 0.008918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009446 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Textures
+  artifactKey: Guid(e04a0ae68508d594eb3b9a1a6aab80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Textures using Guid(e04a0ae68508d594eb3b9a1a6aab80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1054be483e24eb10586e6fd47568749a') in 0.004741 seconds
+  Import took 0.008170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.064613 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Upgrades
+  artifactKey: Guid(169e88d90aa87ec4b9bf96380110f891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Upgrades using Guid(169e88d90aa87ec4b9bf96380110f891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc06f7d7db8bdd87c7430f7b68cc9af') in 0.014661 seconds
+  Import took 0.017672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002135 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Upgrades
+  artifactKey: Guid(169e88d90aa87ec4b9bf96380110f891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Upgrades using Guid(169e88d90aa87ec4b9bf96380110f891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc06f7d7db8bdd87c7430f7b68cc9af') in 0.004851 seconds
+  Import took 0.009185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.304343 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Materials
+  artifactKey: Guid(b4298445cf85d914d82c3728c10cbfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Materials using Guid(b4298445cf85d914d82c3728c10cbfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba4d18389954abc62bd12c978d4e4df') in 0.015424 seconds
+  Import took 0.065287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.662716 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Colliders
+  artifactKey: Guid(54ffe191f113f5245a3d7db892d1d98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8/Cars/16_Classic/Colliders using Guid(54ffe191f113f5245a3d7db892d1d98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a02fb64869f03170fc9e2dfc5d39da') in 0.050514 seconds
+  Import took 0.074385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.310966 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8
+  artifactKey: Guid(7abfbbfb38fe65a449625dfbd3246c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Low Poly Destructible 2Cars no. 8 using Guid(7abfbbfb38fe65a449625dfbd3246c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5200232985d3111147302414223c73f1') in 0.028891 seconds
+  Import took 0.032533 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.234 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1861.
+Total: 2.557099 ms (FindLiveObjects: 0.159727 ms CreateObjectMapping: 0.059575 ms MarkObjects: 2.310769 ms  DeleteObjects: 0.021092 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1864.
+Total: 2.200140 ms (FindLiveObjects: 0.262883 ms CreateObjectMapping: 0.055873 ms MarkObjects: 1.845207 ms  DeleteObjects: 0.030171 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1867.
+Total: 1.819505 ms (FindLiveObjects: 0.136679 ms CreateObjectMapping: 0.055314 ms MarkObjects: 1.603486 ms  DeleteObjects: 0.018368 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 307.136553 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures
+  artifactKey: Guid(682ff93c216ae4efaaff1bb6f131cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures using Guid(682ff93c216ae4efaaff1bb6f131cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc9ea86bd026961c5bbcc4958e16edf') in 0.008881 seconds
+  Import took 0.012348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures
+  artifactKey: Guid(682ff93c216ae4efaaff1bb6f131cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures using Guid(682ff93c216ae4efaaff1bb6f131cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc9ea86bd026961c5bbcc4958e16edf') in 0.004444 seconds
+  Import took 0.008133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.706860 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke
+  artifactKey: Guid(a55aad8b9bde947ae84b4caba67fd218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke using Guid(a55aad8b9bde947ae84b4caba67fd218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df9594ac9cc8ada4f82ec98e1c4d326') in 0.017002 seconds
+  Import took 0.019910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.723474 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Prefabs
+  artifactKey: Guid(a54c188cddc4740c29a4939815cc78dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Prefabs using Guid(a54c188cddc4740c29a4939815cc78dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555ec957abcdaf2bf1a45f6a70a0228a') in 0.012075 seconds
+  Import took 0.045799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.856320 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Prefabs/Car02.prefab
+  artifactKey: Guid(af384ca59b0f24483b0163f2ae19fe10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Prefabs/Car02.prefab using Guid(af384ca59b0f24483b0163f2ae19fe10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d077ead92c7176bf444fbfc7cd14ec') in 0.170516 seconds
+  Import took 0.191343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.965781 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Scripts
+  artifactKey: Guid(2bae9795222ad488ba523f6eaca51294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Scripts using Guid(2bae9795222ad488ba523f6eaca51294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93840adfe2c4dfb63f48003a769cd44f') in 0.012601 seconds
+  Import took 0.051603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.101373 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/ACP_Demo
+  artifactKey: Guid(07e0bcc082937b8048d20ee73d751095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/ACP_Demo using Guid(07e0bcc082937b8048d20ee73d751095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02e05c2c94851e1b1f13f5740b9dcd1') in 0.036924 seconds
+  Import took 0.040527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.373212 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/ACP_Demo.unity
+  artifactKey: Guid(3ea9abe6adfb7598a9a2967f7940e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/ACP_Demo.unity using Guid(3ea9abe6adfb7598a9a2967f7940e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e033382e895bf91080f5833c920c73cb') in 0.012757 seconds
+  Import took 0.015464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.266020 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly.fbx
+  artifactKey: Guid(76df369d597355046923f4461735e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly.fbx using Guid(76df369d597355046923f4461735e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1206db11496b30eeda0f194896a4663c') in 0.202433 seconds
+  Import took 0.205792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/Car01.obj
+  artifactKey: Guid(57d23153e8a364f379241122438b5cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/Car01.obj using Guid(57d23153e8a364f379241122438b5cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605b52e5072461bc6239e706312277db') in 0.157284 seconds
+  Import took 0.160278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadCornerSmallSquare.fbx
+  artifactKey: Guid(9b40a93cd2e4944409023a7bc461d9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadCornerSmallSquare.fbx using Guid(9b40a93cd2e4944409023a7bc461d9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5725f27d61a61c093bd84e7cad1589') in 0.037927 seconds
+  Import took 0.041013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Lamps.mat
+  artifactKey: Guid(98f7409cb2311754790226154951b58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Lamps.mat using Guid(98f7409cb2311754790226154951b58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbfbef8cb43da824bcaad447277bf5d') in 0.041901 seconds
+  Import took 0.058256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000914 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Windows.mat
+  artifactKey: Guid(2e2f85c2d31ee15459da8b5872f104f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Windows.mat using Guid(2e2f85c2d31ee15459da8b5872f104f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1236426014a518e33b841aa90f9f3a2e') in 0.051554 seconds
+  Import took 0.055930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Blue.mat
+  artifactKey: Guid(fc6f26659e5567247a111d9247465c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Blue.mat using Guid(fc6f26659e5567247a111d9247465c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64698178059d842780e9534cbf1190de') in 0.026784 seconds
+  Import took 0.052988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Purple.mat
+  artifactKey: Guid(fcf59a39d922f5b408fb9de922c1ee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Purple.mat using Guid(fcf59a39d922f5b408fb9de922c1ee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285d62d8da9418126c8863c26858a9f1') in 0.021165 seconds
+  Import took 0.023958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Purple_Unlit.mat
+  artifactKey: Guid(b80ac39bd6871754f9b6885ff48eca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Purple_Unlit.mat using Guid(b80ac39bd6871754f9b6885ff48eca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2535bce62b9e440aebe889211bb3bbb') in 0.122125 seconds
+  Import took 0.125060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/checkers.mat
+  artifactKey: Guid(d2e97f90587c2409cbb4ab4a12d17326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/checkers.mat using Guid(d2e97f90587c2409cbb4ab4a12d17326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0909d33ca8f6f6d64b772ed9ae0d7b4a') in 0.032878 seconds
+  Import took 0.035456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 1.mat
+  artifactKey: Guid(3889c423b8feed645aeba90d0e940408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 1.mat using Guid(3889c423b8feed645aeba90d0e940408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da67bc00f9ceeb6e8a8fff7aa46c4add') in 0.052711 seconds
+  Import took 0.055496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Red_Unlit.mat
+  artifactKey: Guid(7e2e5ea8973ba124c90c2d39988f40a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Red_Unlit.mat using Guid(7e2e5ea8973ba124c90c2d39988f40a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683d68b3dd324f8b84f87593086842aa') in 0.052065 seconds
+  Import took 0.055198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/ramp.fbx
+  artifactKey: Guid(1e0df56b5ca894ea7ba0c84036f31b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/ramp.fbx using Guid(1e0df56b5ca894ea7ba0c84036f31b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46d62569378a0caaf5499036d14ba19') in 0.027430 seconds
+  Import took 0.058787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Rubber_Unlit.mat
+  artifactKey: Guid(4810b56cdf36d5b428c7999d26387dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Rubber_Unlit.mat using Guid(4810b56cdf36d5b428c7999d26387dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59c4f0878f34860a2ccbc8a3a4dbd8a') in 0.035100 seconds
+  Import took 0.038944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/Car02.obj
+  artifactKey: Guid(2bdb67dd109374a0cb46d1c3f285d23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/Car02.obj using Guid(2bdb67dd109374a0cb46d1c3f285d23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62325036098f823ee6e43e2775f2682d') in 0.146903 seconds
+  Import took 0.149733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/Car05.obj
+  artifactKey: Guid(2c9905fc8f65a4003856f80c2d000216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/Car05.obj using Guid(2c9905fc8f65a4003856f80c2d000216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a99ca59636c99cef9c85800ff40d783') in 0.178203 seconds
+  Import took 0.181285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly.fbx
+  artifactKey: Guid(76df369d597355046923f4461735e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly.fbx using Guid(76df369d597355046923f4461735e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1206db11496b30eeda0f194896a4663c') in 0.148326 seconds
+  Import took 0.151524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Yellow_Unlit.mat
+  artifactKey: Guid(a0053e9b22b22a947b5c0b13d86934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Yellow_Unlit.mat using Guid(a0053e9b22b22a947b5c0b13d86934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87eec074ec032ee64fdb0df4ef8af96') in 0.061643 seconds
+  Import took 0.064160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke00.mat
+  artifactKey: Guid(e646da43bf70b4fa299d11c7b6d8bb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke00.mat using Guid(e646da43bf70b4fa299d11c7b6d8bb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03faf371cf527130ad5d43e647ae80a') in 0.033155 seconds
+  Import took 0.035946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 2.mat
+  artifactKey: Guid(1968bf9d74d362c408b28c15132baaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 2.mat using Guid(1968bf9d74d362c408b28c15132baaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b50789ac64187da3997a5da02afaf6') in 0.026736 seconds
+  Import took 0.050051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/bark.mat
+  artifactKey: Guid(675468da4c3634b139f2109a30b5a04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/bark.mat using Guid(675468da4c3634b139f2109a30b5a04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22af05211e43e4579cf1860872d1c8a8') in 0.030960 seconds
+  Import took 0.033696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Lamps_Unlit.mat
+  artifactKey: Guid(12eb27b38f3739e4c8ee871ef0b177b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Lamps_Unlit.mat using Guid(12eb27b38f3739e4c8ee871ef0b177b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752a48c8bf2a296e14d23a384a201465') in 0.049304 seconds
+  Import took 0.052554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Green.mat
+  artifactKey: Guid(7035d7f8757dc2946904e38b831bf42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Green.mat using Guid(7035d7f8757dc2946904e38b831bf42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607a3802329ab1ebf38bcc9a317f26df') in 0.015161 seconds
+  Import took 0.017947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Lamps_Unlit.mat
+  artifactKey: Guid(12eb27b38f3739e4c8ee871ef0b177b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Lamps_Unlit.mat using Guid(12eb27b38f3739e4c8ee871ef0b177b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752a48c8bf2a296e14d23a384a201465') in 0.013140 seconds
+  Import took 0.016071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Blue_Unlit.mat
+  artifactKey: Guid(a07001461da8b324ebe7f74daf962498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Blue_Unlit.mat using Guid(a07001461da8b324ebe7f74daf962498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e01fa307afa391bfd9a2ac22109ccf') in 0.047194 seconds
+  Import took 0.055507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Silver_Unlit.mat
+  artifactKey: Guid(a02bfad305321a7468f8194a49e7125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Silver_Unlit.mat using Guid(a02bfad305321a7468f8194a49e7125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10562aeedbf3bb8baf708af0ec5020ff') in 0.096159 seconds
+  Import took 0.099074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Yellow.mat
+  artifactKey: Guid(4add69fc6d74a5946ae4c9a81ed429ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Yellow.mat using Guid(4add69fc6d74a5946ae4c9a81ed429ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da08303a1f058e79558c8dac238bd753') in 0.024766 seconds
+  Import took 0.027816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Windows_Unlit.mat
+  artifactKey: Guid(5179a11c362457440a208aa2e368e795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Windows_Unlit.mat using Guid(5179a11c362457440a208aa2e368e795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ca6804ab92ba0b365797f3bde3eb15') in 0.023096 seconds
+  Import took 0.045296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Silver.mat
+  artifactKey: Guid(2a6c8fdceeee488418663a46854ab545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Silver.mat using Guid(2a6c8fdceeee488418663a46854ab545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4659614972d6bb586fe469b3f24f591a') in 0.030718 seconds
+  Import took 0.039276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Rubber.mat
+  artifactKey: Guid(6d2772f3b3b6e97469d2b0a9b385ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Rubber.mat using Guid(6d2772f3b3b6e97469d2b0a9b385ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37b95ac5dd982569fe52267758c243a') in 0.023550 seconds
+  Import took 0.042136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/_defaultMat.mat
+  artifactKey: Guid(43d762c2da98848399d80e0b72a9e554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/_defaultMat.mat using Guid(43d762c2da98848399d80e0b72a9e554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f812c8cc3d85c8fd73cbe13831ddab') in 0.026258 seconds
+  Import took 0.040597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Green_Unlit.mat
+  artifactKey: Guid(f53167daf8f01e34c963df78be8509fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Green_Unlit.mat using Guid(f53167daf8f01e34c963df78be8509fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6600d99e9326fff3cb65424f5aecc4') in 0.054689 seconds
+  Import took 0.060555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/Car03.obj
+  artifactKey: Guid(67c19608083624fca91e4b6da4f20740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/Car03.obj using Guid(67c19608083624fca91e4b6da4f20740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453e082e69718eb55836ffa6c3b649d5') in 0.190719 seconds
+  Import took 0.194334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/bluegreen.mat
+  artifactKey: Guid(2f741ca76d5d14241b47bc6e8c2a42c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/bluegreen.mat using Guid(2f741ca76d5d14241b47bc6e8c2a42c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38feb8981807bad1b50f08aee3f61b7f') in 0.016112 seconds
+  Import took 0.019403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Red.mat
+  artifactKey: Guid(7f915564e02d7624aaa88d7674e83075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Red.mat using Guid(7f915564e02d7624aaa88d7674e83075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eac191a8cae5ae32850b3bd5101e0d3') in 0.017326 seconds
+  Import took 0.020335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/Car04.obj
+  artifactKey: Guid(09e64466acbe94caf9b481b85cd65501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/Car04.obj using Guid(09e64466acbe94caf9b481b85cd65501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab94648e2fefeba4e2bec17f60fed42') in 0.115236 seconds
+  Import took 0.118057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.797483 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/glass.mat
+  artifactKey: Guid(ed96969b0cf0b4413b279284eb907496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/glass.mat using Guid(ed96969b0cf0b4413b279284eb907496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e622b06949559167fb4bafc63d205fe9') in 0.015148 seconds
+  Import took 0.032061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadStraightBridgeStart.fbx
+  artifactKey: Guid(bf208af2df85c4277be712dc8b5ce04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadStraightBridgeStart.fbx using Guid(bf208af2df85c4277be712dc8b5ce04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7848e939963e075a607eb2921d5e7123') in 0.056294 seconds
+  Import took 0.073623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadCornerLarge.fbx
+  artifactKey: Guid(7a919246d935a40519db05b590422953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadCornerLarge.fbx using Guid(7a919246d935a40519db05b590422953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff048e466641c27e041b35922501b63') in 0.032023 seconds
+  Import took 0.034870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadHalfCircle.fbx
+  artifactKey: Guid(56cdd4f18f2d24cdda05105d3ae565da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadHalfCircle.fbx using Guid(56cdd4f18f2d24cdda05105d3ae565da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c3a648ccaae5e4945378f3cd112955') in 0.041990 seconds
+  Import took 0.056905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Demo/Materials/Grass.mat
+  artifactKey: Guid(d069dd4398675764291f9c82e7286e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Demo/Materials/Grass.mat using Guid(d069dd4398675764291f9c82e7286e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16537bf26dc2689945905aa2a85f2c65') in 0.016316 seconds
+  Import took 0.019679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadCurved.fbx
+  artifactKey: Guid(4647e0c8c427641fb9f80b944a61b948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadCurved.fbx using Guid(4647e0c8c427641fb9f80b944a61b948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01ff999afb9cc7dfc745ac479123337') in 0.046201 seconds
+  Import took 0.059874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadStraight.fbx
+  artifactKey: Guid(16a275b0a87384bf2b17ee340f695b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadStraight.fbx using Guid(16a275b0a87384bf2b17ee340f695b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7ee713fad4fc3dae0debcc3a087e1b') in 0.038302 seconds
+  Import took 0.043091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadStraightLong.fbx
+  artifactKey: Guid(f0db688d29cd347d5852dfde5943069b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadStraightLong.fbx using Guid(f0db688d29cd347d5852dfde5943069b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d391c82ce9520a20e3d2f1449dcc856') in 0.039239 seconds
+  Import took 0.043560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadCornerLarger.fbx
+  artifactKey: Guid(3b6f5f909be8e4bd0af997c2c6779d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/roadCornerLarger.fbx using Guid(3b6f5f909be8e4bd0af997c2c6779d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f761ac781115bfb7d33fcbf7d39ea6') in 0.037667 seconds
+  Import took 0.040897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/grass.mat
+  artifactKey: Guid(8bf2efa4d09a54f859f356463f2fe061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/grass.mat using Guid(8bf2efa4d09a54f859f356463f2fe061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485c27a33c1bf67aac3bcdf3daf5287b') in 0.032172 seconds
+  Import took 0.036192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/grass 20x20.mat
+  artifactKey: Guid(d2b5ea14a70ce46bba6a984dfe8ae350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/grass 20x20.mat using Guid(d2b5ea14a70ce46bba6a984dfe8ae350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fae00f502e8daedaa9902bb2990997') in 0.023368 seconds
+  Import took 0.027758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015831 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/grass 20x20.mat
+  artifactKey: Guid(d2b5ea14a70ce46bba6a984dfe8ae350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Models/RaceTracks/Materials/grass 20x20.mat using Guid(d2b5ea14a70ce46bba6a984dfe8ae350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fae00f502e8daedaa9902bb2990997') in 0.013882 seconds
+  Import took 0.017316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.975502 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins
+  artifactKey: Guid(954e1e84678adf7449ae2c0d516e4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins using Guid(954e1e84678adf7449ae2c0d516e4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f31027599bb27d6d7e83a1e974f83f') in 0.009250 seconds
+  Import took 0.011812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.530998 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources
+  artifactKey: Guid(d9f83c3eb6c85634396e71f5dab0b3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources using Guid(d9f83c3eb6c85634396e71f5dab0b3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dc4f49781c656959789dd38a110445') in 0.014409 seconds
+  Import took 0.017273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.922589 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models
+  artifactKey: Guid(0ff2d26a6d8c74e47bcbec7ed8644798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models using Guid(0ff2d26a6d8c74e47bcbec7ed8644798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4597c01dfa151388a058eabc95e54ee1') in 0.008365 seconds
+  Import took 0.011283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.499394 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly.fbx
+  artifactKey: Guid(76df369d597355046923f4461735e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly.fbx using Guid(76df369d597355046923f4461735e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985460026ccd7c2fd3aede9bf450770b') in 0.131096 seconds
+  Import took 0.134262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.847585 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly.fbx
+  artifactKey: Guid(76df369d597355046923f4461735e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly.fbx using Guid(76df369d597355046923f4461735e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84d7072eb8144b3cad3bba7f19d47dc') in 0.122603 seconds
+  Import took 0.125863 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.179 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 2.217880 ms (FindLiveObjects: 0.190876 ms CreateObjectMapping: 0.121175 ms MarkObjects: 1.824184 ms  DeleteObjects: 0.075987 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 2.162565 ms (FindLiveObjects: 0.148902 ms CreateObjectMapping: 0.054686 ms MarkObjects: 1.931391 ms  DeleteObjects: 0.021511 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 427.833968 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Prefabs
+  artifactKey: Guid(524763def615d004383ad5950fb2875b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Prefabs using Guid(524763def615d004383ad5950fb2875b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1de591a0b61d3c1b06cd209b1b1a7d') in 0.011804 seconds
+  Import took 0.018063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.049872 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Prefabs/Taxi.prefab
+  artifactKey: Guid(0f7017f8517b8544494f1a4f76061e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Prefabs/Taxi.prefab using Guid(0f7017f8517b8544494f1a4f76061e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5515c628f4050497be250a9fdd7c4b') in 0.110624 seconds
+  Import took 0.114164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.751270 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/ACP_Demo.unity
+  artifactKey: Guid(3ea9abe6adfb7598a9a2967f7940e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/ACP_Demo.unity using Guid(3ea9abe6adfb7598a9a2967f7940e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d6854cf4f9da16cd50ea2c1d47f8d9') in 0.008106 seconds
+  Import took 0.011237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006715 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/ACP_Demo.unity
+  artifactKey: Guid(3ea9abe6adfb7598a9a2967f7940e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/ACP_Demo.unity using Guid(3ea9abe6adfb7598a9a2967f7940e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d6854cf4f9da16cd50ea2c1d47f8d9') in 0.003056 seconds
+  Import took 0.007549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.339491 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/ACP_Demo.unity
+  artifactKey: Guid(3ea9abe6adfb7598a9a2967f7940e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/ACP_Demo.unity using Guid(3ea9abe6adfb7598a9a2967f7940e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ac8e5b91765b9b5fb13a50b28a800b') in 0.004538 seconds
+  Import took 0.007328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.001831 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics
+  artifactKey: Guid(e3812ded1c07d8445b63678b9d84e3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics using Guid(e3812ded1c07d8445b63678b9d84e3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0342bbd1c1b9208fdc7dc4c185b75425') in 0.009981 seconds
+  Import took 0.012492 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1913.
+Total: 2.136794 ms (FindLiveObjects: 0.243327 ms CreateObjectMapping: 0.062787 ms MarkObjects: 1.758673 ms  DeleteObjects: 0.066140 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.496647 seconds.
   path: Assets/Jerome (OWL7seven)/Jerome.unity
   artifactKey: Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Jerome.unity using Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e506487859f0bdbd7d133bff68eefd9') in 0.005616 seconds
-  Import took 0.007504 seconds .
+Start importing Assets/Jerome (OWL7seven)/Jerome.unity using Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea505f39b7291ce4e76141e909b7347b') in 0.018277 seconds
+  Import took 0.021051 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.238191 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.088 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 1.878521 ms (FindLiveObjects: 0.150438 ms CreateObjectMapping: 0.055314 ms MarkObjects: 1.646438 ms  DeleteObjects: 0.020673 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.255400 seconds.
-  path: Assets/Koketso (Koketso)/Koketso.unity
-  artifactKey: Guid(e96d46529d797534d939e99aba899d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Koketso (Koketso)/Koketso.unity using Guid(e96d46529d797534d939e99aba899d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea69a7b4df0da8f51241cc5ce498fe6') in 0.005303 seconds
-  Import took 0.007344 seconds .
+  Time since last request: 123.557122 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota10.jpg
+  artifactKey: Guid(6bf9f4649f388f0498d4cdded9917056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota10.jpg using Guid(6bf9f4649f388f0498d4cdded9917056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a45d4f224b4afa6036a325c2908660') in 0.171871 seconds
+  Import took 0.174770 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.404713 seconds.
-  path: Assets/Lesedi (Mocha)/Lesedi.unity
-  artifactKey: Guid(084d4a38eff59fc408f86e8c06f95c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lesedi (Mocha)/Lesedi.unity using Guid(084d4a38eff59fc408f86e8c06f95c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b481f9bdbbd054d44e350224d7dedf14') in 0.005786 seconds
-  Import took 0.007615 seconds .
+  Time since last request: 0.005216 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota3.jpg
+  artifactKey: Guid(b754794e7d1ac3d40955613d852c7e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota3.jpg using Guid(b754794e7d1ac3d40955613d852c7e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb15ff316bd2000c0f79e54e570dcab') in 0.016676 seconds
+  Import took 0.020026 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.704572 seconds.
-  path: Assets/Vedanth (V Master)/Vedanth.unity
-  artifactKey: Guid(5c4073fee184a0e41b33cfae714d741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/Vedanth.unity using Guid(5c4073fee184a0e41b33cfae714d741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3adaed517763e90fe1a00f8ca060c0') in 0.010322 seconds
-  Import took 0.012108 seconds .
+  Time since last request: 0.006638 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota7.jpg
+  artifactKey: Guid(922af801cdfb55a4082bf7b4b46510c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota7.jpg using Guid(922af801cdfb55a4082bf7b4b46510c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222446d69e4831c95d4bf47c16f4ed4b') in 0.021986 seconds
+  Import took 0.026637 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota14.jpg
+  artifactKey: Guid(acd0f06c35a3d024e8a30b540c7b8199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota14.jpg using Guid(acd0f06c35a3d024e8a30b540c7b8199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dc9e0dcdd3a98943043c9f7896476b') in 0.015161 seconds
+  Import took 0.018536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006024 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota6.jpg
+  artifactKey: Guid(a0cc11d5927dbb542afdbe9f4df2ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota6.jpg using Guid(a0cc11d5927dbb542afdbe9f4df2ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e256618d4ea8e6b6df554328bc6fef2d') in 0.010497 seconds
+  Import took 0.013180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033404 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota15.jpg
+  artifactKey: Guid(b019affad4849054fb5a21945e08e1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota15.jpg using Guid(b019affad4849054fb5a21945e08e1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdc084e8ecf0828a5d9efa005278af3') in 0.015265 seconds
+  Import took 0.018533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005665 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota9.jpg
+  artifactKey: Guid(145f24e4c7cb47f43b20825d90a326ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota9.jpg using Guid(145f24e4c7cb47f43b20825d90a326ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00983fcccc4402c4f0f19dce540d803') in 0.010969 seconds
+  Import took 0.024102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005747 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota8.jpg
+  artifactKey: Guid(4bb76716e376ade4b81f81fccda7660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota8.jpg using Guid(4bb76716e376ade4b81f81fccda7660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f623a503a86f12efdee5a0ffbf29ec2') in 0.012702 seconds
+  Import took 0.030354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007676 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota5.jpg
+  artifactKey: Guid(02edebf9cf635254081f1eed1c78c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota5.jpg using Guid(02edebf9cf635254081f1eed1c78c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de94960eda86323c468460ecd018650') in 0.014763 seconds
+  Import took 0.017524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005960 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota12.jpg
+  artifactKey: Guid(31b2ec50c8a20c14bb1a07b8441b711f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota12.jpg using Guid(31b2ec50c8a20c14bb1a07b8441b711f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a901fbe301b4f04f9af2411b929a87') in 0.010749 seconds
+  Import took 0.018210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006119 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota13.jpg
+  artifactKey: Guid(abdb384ff574f6541b99b50c90061f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota13.jpg using Guid(abdb384ff574f6541b99b50c90061f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16cf0458aadeede1e75d13e69f1c18b') in 0.012058 seconds
+  Import took 0.015169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005551 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota11.jpg
+  artifactKey: Guid(d2d73e1ee6179654b935be74b96d7569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota11.jpg using Guid(d2d73e1ee6179654b935be74b96d7569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7dc75af5533c439c8a395bf1d456bf') in 0.016381 seconds
+  Import took 0.021246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006001 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota2.jpg
+  artifactKey: Guid(eab6bd34f4b21514eb6af5c70d7ba392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota2.jpg using Guid(eab6bd34f4b21514eb6af5c70d7ba392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf59c56a065baa5d2f5d142a71fac52') in 0.071559 seconds
+  Import took 0.108798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009219 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota4.jpg
+  artifactKey: Guid(23beb1b902b6cf94a9e57e21c4f1aab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota4.jpg using Guid(23beb1b902b6cf94a9e57e21c4f1aab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b46e3f7787a22ce469f2ecefffa215a') in 0.040413 seconds
+  Import took 0.043026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006095 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota16.jpg
+  artifactKey: Guid(d7986b7abf640b54a83c6c47c9b36dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota16.jpg using Guid(d7986b7abf640b54a83c6c47c9b36dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8d18ff84df42a567b25d963d191b30') in 0.320002 seconds
+  Import took 0.323178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009839 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota1.jpg
+  artifactKey: Guid(89fddfcff2e6c994fac6db40f3c467b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota1.jpg using Guid(89fddfcff2e6c994fac6db40f3c467b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef550856bc42520fc93bb93b7decb2f8') in 0.042580 seconds
+  Import took 0.045588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011052 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota.jpg
+  artifactKey: Guid(ada493976818dc4489d77fe59fa75127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota.jpg using Guid(ada493976818dc4489d77fe59fa75127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452d815925d32eaef9d40edbaf8f04f1') in 0.027412 seconds
+  Import took 0.031692 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002587 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.226 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1926.
+Total: 1.885854 ms (FindLiveObjects: 0.152603 ms CreateObjectMapping: 0.052521 ms MarkObjects: 1.656216 ms  DeleteObjects: 0.019067 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1929.
+Total: 1.971340 ms (FindLiveObjects: 0.142895 ms CreateObjectMapping: 0.051263 ms MarkObjects: 1.749664 ms  DeleteObjects: 0.021581 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005233 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 1.856591 ms (FindLiveObjects: 0.168597 ms CreateObjectMapping: 0.058527 ms MarkObjects: 1.604673 ms  DeleteObjects: 0.019067 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002714 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.326 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1935.
+Total: 2.082318 ms (FindLiveObjects: 0.147225 ms CreateObjectMapping: 0.052032 ms MarkObjects: 1.857289 ms  DeleteObjects: 0.019975 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003957 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.222 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1938.
+Total: 1.959188 ms (FindLiveObjects: 0.145829 ms CreateObjectMapping: 0.114749 ms MarkObjects: 1.673188 ms  DeleteObjects: 0.018857 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 517.658432 seconds.
+  path: Assets/Jerome (OWL7seven)/Jerome.unity
+  artifactKey: Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Jerome.unity using Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3689547d4cf48aa60b5541f79c6755') in 0.022753 seconds
+  Import took 0.025628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.985579 seconds.
+  path: Assets/Lesedi (Mocha)
+  artifactKey: Guid(d3dd53b2f82f3574793be28f82696b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lesedi (Mocha) using Guid(d3dd53b2f82f3574793be28f82696b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2170bbe57a609349339a1bb7d14af0') in 0.010638 seconds
+  Import took 0.013507 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 3.766610 ms (FindLiveObjects: 0.163289 ms CreateObjectMapping: 0.590718 ms MarkObjects: 2.957918 ms  DeleteObjects: 0.044489 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.450108 seconds.
+  path: Assets/Jerome (OWL7seven)/Jerome.unity
+  artifactKey: Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Jerome.unity using Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10ba0f4ec802f99baa553804eba841b') in 0.022016 seconds
+  Import took 0.025149 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.260 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1944.
+Total: 1.875029 ms (FindLiveObjects: 0.218952 ms CreateObjectMapping: 0.054825 ms MarkObjects: 1.575549 ms  DeleteObjects: 0.019835 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.321 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1947.
+Total: 3.018889 ms (FindLiveObjects: 0.154140 ms CreateObjectMapping: 0.062717 ms MarkObjects: 2.769975 ms  DeleteObjects: 0.026260 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1950.
+Total: 2.244419 ms (FindLiveObjects: 0.162940 ms CreateObjectMapping: 0.169435 ms MarkObjects: 1.887391 ms  DeleteObjects: 0.019067 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 1.924337 ms (FindLiveObjects: 0.147924 ms CreateObjectMapping: 0.055524 ms MarkObjects: 1.694838 ms  DeleteObjects: 0.020184 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1956.
+Total: 2.296870 ms (FindLiveObjects: 0.143803 ms CreateObjectMapping: 0.050565 ms MarkObjects: 2.078476 ms  DeleteObjects: 0.018298 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002937 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1959.
+Total: 2.292819 ms (FindLiveObjects: 0.144641 ms CreateObjectMapping: 0.051613 ms MarkObjects: 2.069956 ms  DeleteObjects: 0.020533 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002883 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.481 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1962.
+Total: 2.104527 ms (FindLiveObjects: 0.253733 ms CreateObjectMapping: 0.072146 ms MarkObjects: 1.753854 ms  DeleteObjects: 0.019067 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 940.527809 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Prefabs/Taxi.prefab
+  artifactKey: Guid(0f7017f8517b8544494f1a4f76061e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Prefabs/Taxi.prefab using Guid(0f7017f8517b8544494f1a4f76061e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb96164345d15eff2778ee143eafd27c') in 0.318378 seconds
+  Import took 0.322486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.013108 seconds.
+  path: Assets/Jerome (OWL7seven)/Jerome.unity
+  artifactKey: Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Jerome.unity using Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84993c00688bdf64c1289ff4d10e23c1') in 0.012088 seconds
+  Import took 0.023744 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 3.243080 ms (FindLiveObjects: 0.154768 ms CreateObjectMapping: 0.051962 ms MarkObjects: 2.781708 ms  DeleteObjects: 0.248705 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003482 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.253 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 2.706629 ms (FindLiveObjects: 0.227264 ms CreateObjectMapping: 0.128997 ms MarkObjects: 2.322851 ms  DeleteObjects: 0.021162 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 397.787415 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/ACP_Demo.unity
+  artifactKey: Guid(3ea9abe6adfb7598a9a2967f7940e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/ACP_Demo.unity using Guid(3ea9abe6adfb7598a9a2967f7940e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8961bb070abb42c9cd03d9a615171752') in 0.017446 seconds
+  Import took 0.020821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.162931 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople
+  artifactKey: Guid(0ba2f4a233edccb47a386166c9f8a0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople using Guid(0ba2f4a233edccb47a386166c9f8a0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bf6eabf82c19f8c957757a1e3f7da1') in 0.010318 seconds
+  Import took 0.013219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.673890 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/sample_scene/TT_Citizens_sample_scene.unity
+  artifactKey: Guid(ef84f0feb37c21e4f9485ac11ec74c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/sample_scene/TT_Citizens_sample_scene.unity using Guid(ef84f0feb37c21e4f9485ac11ec74c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcfd48a0d4cb47ac332ace8d2626834') in 0.009021 seconds
+  Import took 0.020995 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.269342 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.995 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.4 MB.
+System memory in use after: 97.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2007.
+Total: 2.393181 ms (FindLiveObjects: 0.331118 ms CreateObjectMapping: 0.104343 ms MarkObjects: 1.932648 ms  DeleteObjects: 0.018857 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.365277 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/NavMesh/Examples/Scenes
+  artifactKey: Guid(c2cb1390efdb94ba790577476c2dba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/NavMesh/Examples/Scenes using Guid(c2cb1390efdb94ba790577476c2dba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0c9c26677eef374b3814a194711179') in 0.009892 seconds
+  Import took 0.044067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/NavMesh/Examples
+  artifactKey: Guid(b0cd8658ce7171d4b9e988200c780895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/NavMesh/Examples using Guid(b0cd8658ce7171d4b9e988200c780895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc38d20a9365a0f7958afa9fc291fe93') in 0.012654 seconds
+  Import took 0.038760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001060 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/NavMesh
+  artifactKey: Guid(703c0fe30b30a044abc93858bdbc0dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/NavMesh using Guid(703c0fe30b30a044abc93858bdbc0dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572eeb23fa133809f5c5de9177f67a58') in 0.012985 seconds
+  Import took 0.016691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/NavMesh/Examples/Prefabs
+  artifactKey: Guid(547d8777744d94a36a3bd59fbf4ee093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/NavMesh/Examples/Prefabs using Guid(547d8777744d94a36a3bd59fbf4ee093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cce426b845f649b0077e7c1df1419f5') in 0.011135 seconds
+  Import took 0.079110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.153398 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/NavMesh/Examples/Prefabs/BanyanTree.fbx
+  artifactKey: Guid(0015d5d487e6b4c51b6be43a47511ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/NavMesh/Examples/Prefabs/BanyanTree.fbx using Guid(0015d5d487e6b4c51b6be43a47511ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915e955f1dfdeff76b23fdf24668311e') in 0.192362 seconds
+  Import took 0.224437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/NavMesh/Examples/Prefabs/BanyanTree.fbx
+  artifactKey: Guid(0015d5d487e6b4c51b6be43a47511ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/NavMesh/Examples/Prefabs/BanyanTree.fbx using Guid(0015d5d487e6b4c51b6be43a47511ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915e955f1dfdeff76b23fdf24668311e') in 0.020119 seconds
+  Import took 0.022687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.613731 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/NavMesh/Examples/Scenes/1_multiple_agent_sizes.unity
+  artifactKey: Guid(e3a4b724d578d4696a8ccd679e44174c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/NavMesh/Examples/Scenes/1_multiple_agent_sizes.unity using Guid(e3a4b724d578d4696a8ccd679e44174c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468945dc553c7ff38eb1aedd20b0de43') in 0.011669 seconds
+  Import took 0.048424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.352099 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Animations
+  artifactKey: Guid(372e1f5db45d61140924f86bfc08f967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Animations using Guid(372e1f5db45d61140924f86bfc08f967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64452244b4a8baebee8504fbec5044d4') in 0.011934 seconds
+  Import took 0.029928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.293627 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Animations/Male.controller
+  artifactKey: Guid(2b98354f81c9fdc468fd3e62e7bd3c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Animations/Male.controller using Guid(2b98354f81c9fdc468fd3e62e7bd3c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e13d772147af1d04bbe2f6c63ee246') in 0.013429 seconds
+  Import took 0.034221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.118910 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Animations/Female.controller
+  artifactKey: Guid(8a183e37fda63504090ebd34ad8336f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Animations/Female.controller using Guid(8a183e37fda63504090ebd34ad8336f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aad85f7aa21cd725cd2369402e9bf30') in 0.012992 seconds
+  Import took 0.042671 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.309 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.4 MB.
+System memory in use after: 97.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2011.
+Total: 2.247772 ms (FindLiveObjects: 0.201073 ms CreateObjectMapping: 0.107975 ms MarkObjects: 1.912813 ms  DeleteObjects: 0.020184 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003229 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.234 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.4 MB.
+System memory in use after: 97.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2014.
+Total: 2.601308 ms (FindLiveObjects: 0.660419 ms CreateObjectMapping: 0.076686 ms MarkObjects: 1.760908 ms  DeleteObjects: 0.020394 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.390636 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/animation
+  artifactKey: Guid(48a2521370ce07144a1e087c9dfc358e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/animation using Guid(48a2521370ce07144a1e087c9dfc358e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3ea3a9016de1c92551187f335d8179') in 0.014089 seconds
+  Import took 0.048594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.711855 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/animation/male
+  artifactKey: Guid(d37ce0bd81e182446a5317ee1c4a623d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/animation/male using Guid(d37ce0bd81e182446a5317ee1c4a623d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80c4051d91ddbdbe80d3b6dde4e6e94') in 0.010175 seconds
+  Import took 0.048423 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003026 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.4 MB.
+System memory in use after: 97.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2017.
+Total: 2.073308 ms (FindLiveObjects: 0.270286 ms CreateObjectMapping: 0.055244 ms MarkObjects: 1.722426 ms  DeleteObjects: 0.019486 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.310568 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/animation/female
+  artifactKey: Guid(fadb9e87488c32540bbef36d50cd5ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/ToonyTinyPeople/animation/female using Guid(fadb9e87488c32540bbef36d50cd5ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c889c311ffce74314488f6fb8c6fcbc') in 0.013946 seconds
+  Import took 0.762663 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003632 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.196 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.4 MB.
+System memory in use after: 97.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2020.
+Total: 2.277384 ms (FindLiveObjects: 0.180959 ms CreateObjectMapping: 0.101759 ms MarkObjects: 1.969245 ms  DeleteObjects: 0.019625 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.4 MB.
+System memory in use after: 97.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 1.839829 ms (FindLiveObjects: 0.164267 ms CreateObjectMapping: 0.054756 ms MarkObjects: 1.594267 ms  DeleteObjects: 0.020883 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 249.442162 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Prefabs/Passenger_Male_01.prefab
+  artifactKey: Guid(62c8d25116695564da47ff672093804f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Prefabs/Passenger_Male_01.prefab using Guid(62c8d25116695564da47ff672093804f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13263f57999f90780271f1fe91f9228c') in 0.310501 seconds
+  Import took 0.341068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.737485 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Prefabs/Passenger_Female_01.prefab
+  artifactKey: Guid(6c8e05ae8a1c2bc45bde1c48b446e4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Prefabs/Passenger_Female_01.prefab using Guid(6c8e05ae8a1c2bc45bde1c48b446e4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670db08c2798c5a0b1bfdb0ee3ecb125') in 0.035446 seconds
+  Import took 0.065389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.478634 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Prefabs/Passenger_Male_02.prefab
+  artifactKey: Guid(26122e142bd83ff409ad717a92bd7690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Prefabs/Passenger_Male_02.prefab using Guid(26122e142bd83ff409ad717a92bd7690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf3d06d7bc8dd185e57a4ef050f8b2c') in 0.054043 seconds
+  Import took 0.083865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.837005 seconds.
+  path: Assets/Jerome (OWL7seven)/Jerome.unity
+  artifactKey: Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Jerome.unity using Guid(93f13dbf4af408d43ac28b3d2299acc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60797654e4748b60178c2a167d50875') in 0.010478 seconds
+  Import took 0.013420 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002806 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2027.
+Total: 2.616953 ms (FindLiveObjects: 0.287117 ms CreateObjectMapping: 0.276641 ms MarkObjects: 2.026934 ms  DeleteObjects: 0.020394 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002984 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.280 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 2.351137 ms (FindLiveObjects: 0.189410 ms CreateObjectMapping: 0.102946 ms MarkObjects: 2.032032 ms  DeleteObjects: 0.019905 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.222 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2033.
+Total: 1.945988 ms (FindLiveObjects: 0.167200 ms CreateObjectMapping: 0.064813 ms MarkObjects: 1.689321 ms  DeleteObjects: 0.018857 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.181081 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.731 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2036.
+Total: 3.052902 ms (FindLiveObjects: 0.219162 ms CreateObjectMapping: 0.109022 ms MarkObjects: 2.698667 ms  DeleteObjects: 0.018927 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004409 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2069.
+Total: 2.967277 ms (FindLiveObjects: 0.170064 ms CreateObjectMapping: 0.068235 ms MarkObjects: 1.756857 ms  DeleteObjects: 0.966114 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.875 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.0 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2167.
+Total: 6.641696 ms (FindLiveObjects: 0.212038 ms CreateObjectMapping: 0.092679 ms MarkObjects: 1.782908 ms  DeleteObjects: 4.547785 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3426.559479 seconds.
+  path: Assets/GoogleMaps
+  artifactKey: Guid(8db3473487251664fbb9b77241f60104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMaps using Guid(8db3473487251664fbb9b77241f60104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c674efdaac4405357ae438be0ceedf61') in 0.039085 seconds
+  Import took 0.102026 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.028 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 137 unused Assets to reduce memory usage. Loaded Objects now: 2046.
+Total: 2.216064 ms (FindLiveObjects: 0.183124 ms CreateObjectMapping: 0.069073 ms MarkObjects: 1.794222 ms  DeleteObjects: 0.163638 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.993189 seconds.
+  path: Assets/Jerome (OWL7seven)/Jerome
+  artifactKey: Guid(0623d0af0e5feae49b12b65db44c82b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Jerome using Guid(0623d0af0e5feae49b12b65db44c82b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ee77286c805b5fa00ced3c883f935c') in 0.011211 seconds
+  Import took 0.013993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.150851 seconds.
+  path: Assets/Jerome (OWL7seven)/Temp
+  artifactKey: Guid(b854a31c71c96ef4c9334e636da31f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Temp using Guid(b854a31c71c96ef4c9334e636da31f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f4b3762f9a68d7ee49640e9c6aa596') in 0.067016 seconds
+  Import took 0.070025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.379028 seconds.
+  path: Assets/Jerome (OWL7seven)/Temp/Passengers_Settings
+  artifactKey: Guid(25193191929e2204d8a909d87297d5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Temp/Passengers_Settings using Guid(25193191929e2204d8a909d87297d5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8540113025f31a50d169299ae40b7124') in 0.010141 seconds
+  Import took 0.052181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.243428 seconds.
+  path: Assets/Jerome (OWL7seven)/Temp/Passengers_Settings.unity
+  artifactKey: Guid(a1274674e031bd74aa3b72e4ed6b77d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Temp/Passengers_Settings.unity using Guid(a1274674e031bd74aa3b72e4ed6b77d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fcd14efa40fdf783514b9313c8ccd5') in 0.342521 seconds
+  Import took 0.345370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.837168 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack
+  artifactKey: Guid(15b82ebb48dbb4745b6ea62a09f21c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyCarPack using Guid(15b82ebb48dbb4745b6ea62a09f21c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f3b063c687b0a5ba199af840f9b51e') in 0.010090 seconds
+  Import took 0.012776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.155810 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack
+  artifactKey: Guid(e7936b04baec8e74a8c44bdfaa78534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack using Guid(e7936b04baec8e74a8c44bdfaa78534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09f6f8b3c7132de1a63b532e5ce8b30') in 0.009860 seconds
+  Import took 0.012608 seconds .
+
