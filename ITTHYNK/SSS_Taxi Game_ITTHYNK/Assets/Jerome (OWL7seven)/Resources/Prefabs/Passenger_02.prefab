@@ -10,9 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4507298632984222300}
   - component: {fileID: 4507298632984216992}
-  - component: {fileID: 4507298632984216995}
   m_Layer: 0
-  m_Name: Passenger_Male_01
+  m_Name: Passenger_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55,18 +54,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &4507298632984216995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4507298632984216994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9472e73a59274b9b8da79d72004bd8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8599833378664935491
 GameObject:
   m_ObjectHideFlags: 0
