@@ -7,6 +7,7 @@ public class PassDestination : MonoBehaviour
     public string LocationName;
     public GameObject Parti;
     public bool current = false;
+    public IndicatorTarget Target;
 
     public void notCurrent()
     {

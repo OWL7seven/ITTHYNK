@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Location
   - Loc
+  - LocMaster
+  - Indicator
   layers:
   - Default
   - TransparentFX
