@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.804; Version 2009; 64bit' Language: 'en' Physical Memory: 32692 MB
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 18389 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,238 +11,589 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-E:/ITTYNK Game Jam/ITTHYNK/SSS_Taxi Game_ITTHYNK
+D:/Star Seed Studios/ITTHYNK2/ITTHYNK/SSS_Taxi Game_ITTHYNK
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57830
-Successfully changed project path to: E:/ITTYNK Game Jam/ITTHYNK/SSS_Taxi Game_ITTHYNK
-E:/ITTYNK Game Jam/ITTHYNK/SSS_Taxi Game_ITTHYNK
+53215
+Successfully changed project path to: D:/Star Seed Studios/ITTHYNK2/ITTHYNK/SSS_Taxi Game_ITTHYNK
+D:/Star Seed Studios/ITTHYNK2/ITTHYNK/SSS_Taxi Game_ITTHYNK
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 92.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/ITTYNK Game Jam/ITTHYNK/SSS_Taxi Game_ITTHYNK/Assets
+[Subsystems] Discovering subsystems at path D:/Star Seed Studios/ITTHYNK2/ITTHYNK/SSS_Taxi Game_ITTHYNK/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Renderer: Radeon RX 570 Series (ID=0x67df)
     Vendor:   
-    VRAM:     8010 MB
-    Driver:   27.21.14.6589
+    VRAM:     4075 MB
+    Driver:   27.20.21003.8013
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001631 seconds.
+Registered in 0.002824 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 94.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.536 seconds
+- Completed reload, in  2.631 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002833 seconds.
+Registered in 0.006094 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 52.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 97.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
+- Completed reload, in  1.679 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3035 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.8 MB.
-System memory in use after: 90.5 MB.
+System memory in use before: 137.9 MB.
+System memory in use after: 90.6 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3476.
-Total: 3.565800 ms (FindLiveObjects: 0.303800 ms CreateObjectMapping: 0.112600 ms MarkObjects: 3.087400 ms  DeleteObjects: 0.061100 ms)
+Total: 5.052300 ms (FindLiveObjects: 0.272200 ms CreateObjectMapping: 0.134800 ms MarkObjects: 4.550200 ms  DeleteObjects: 0.093600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_low_poly.fbx
-  artifactKey: Guid(76df369d597355046923f4461735e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_low_poly.fbx using Guid(76df369d597355046923f4461735e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efb13a6286b42cc54b0dd83054d6810') in 0.323001 seconds
-  Import took 0.327442 seconds .
+  path: Assets/Athi (TheBlueStuff)/Athi.unity
+  artifactKey: Guid(98d9dce4921800b4c8b28fb12e8635fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Athi.unity using Guid(98d9dce4921800b4c8b28fb12e8635fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660ee7991183fb843cd1db8fd475dd87') in 0.117169 seconds
+  Import took 0.172075 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1573.678159 seconds.
-  path: Assets/Jerome (OWL7seven)/Resources/Models/toyota2.mat
-  artifactKey: Guid(5677ddf5c88f0b3468e7a62bfc2b3f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Resources/Models/toyota2.mat using Guid(5677ddf5c88f0b3468e7a62bfc2b3f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e583627e932d4df5c795c9e43b3420e9') in 0.022790 seconds
-  Import took 0.027712 seconds .
+  Time since last request: 7.246023 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Textures
+  artifactKey: Guid(b8b53b1ddd2ca5a479d42436f8e1f17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Textures using Guid(b8b53b1ddd2ca5a479d42436f8e1f17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c027da2207942f1f2a8e36f9b0920213') in 0.080609 seconds
+  Import took 0.087827 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.244348 seconds.
-  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota.jpg
-  artifactKey: Guid(ada493976818dc4489d77fe59fa75127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota.jpg using Guid(ada493976818dc4489d77fe59fa75127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f323a7d1915ed902eca397447cfc10') in 0.023156 seconds
-  Import took 0.027206 seconds .
+  Time since last request: 0.032737 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Textures/Car Colorscheme 1.png
+  artifactKey: Guid(c345e8b354c41dd4287a1f319bb8bb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Textures/Car Colorscheme 1.png using Guid(c345e8b354c41dd4287a1f319bb8bb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16b5213215851ad8296773b39500d93') in 0.367823 seconds
+  Import took 0.374762 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota2.jpg
-  artifactKey: Guid(eab6bd34f4b21514eb6af5c70d7ba392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota2.jpg using Guid(eab6bd34f4b21514eb6af5c70d7ba392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f738c5f4c7cd6ae460c2d5d0a4dbb7fb') in 0.008980 seconds
-  Import took 0.012793 seconds .
+  Time since last request: 0.000315 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Textures/Car Colorscheme 2.png
+  artifactKey: Guid(1eaa27659b24fe447ace162f9058044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Textures/Car Colorscheme 2.png using Guid(1eaa27659b24fe447ace162f9058044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed4658a1a4913d2b69b9f6fe3336c38') in 0.080919 seconds
+  Import took 0.086431 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota3.jpg
-  artifactKey: Guid(d2fd15c026249fc4dbdde509b7d95e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota3.jpg using Guid(d2fd15c026249fc4dbdde509b7d95e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e94e23917865538cd7ecb66b70d0564') in 0.008400 seconds
-  Import took 0.012421 seconds .
+  Time since last request: 0.000285 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Textures/Road Colorscheme.png
+  artifactKey: Guid(ee1b8ae61c20d994aa45384f1afaaaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Textures/Road Colorscheme.png using Guid(ee1b8ae61c20d994aa45384f1afaaaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42727d71931d4791fa7f02b19894fb12') in 0.057370 seconds
+  Import took 0.062950 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota7.jpg
-  artifactKey: Guid(d1404d27dad0a9d449057da0b5d3ebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota7.jpg using Guid(d1404d27dad0a9d449057da0b5d3ebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d31869c23faa1e7474421849b30a32') in 0.007958 seconds
-  Import took 0.012118 seconds .
+  Time since last request: 24.488649 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyShaders/Readme.pdf
+  artifactKey: Guid(ea4623b14e9c44e418fb01441d4ee74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyShaders/Readme.pdf using Guid(ea4623b14e9c44e418fb01441d4ee74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f54cad2b00f7ef62baf8d351e00e7dc') in 0.056631 seconds
+  Import took 0.064208 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota5.jpg
-  artifactKey: Guid(02edebf9cf635254081f1eed1c78c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota5.jpg using Guid(02edebf9cf635254081f1eed1c78c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5804c294e81f9b12df24c92ef067d30f') in 0.007383 seconds
-  Import took 0.011351 seconds .
+  Time since last request: 1.244765 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyShaders/Shaders/LowPolyPBRShader.shader
+  artifactKey: Guid(a97e290cd0cec1a4cb176e474e69c1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyShaders/Shaders/LowPolyPBRShader.shader using Guid(a97e290cd0cec1a4cb176e474e69c1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ff2cf4d2d7c143146c89c3e097ee0c') in 0.023351 seconds
+  Import took 0.086193 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota5.jpg
-  artifactKey: Guid(7075975ac7a62794a91c2a8f34415f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota5.jpg using Guid(7075975ac7a62794a91c2a8f34415f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d38ecfa12aa96f06dc62a0da2727727') in 0.004068 seconds
-  Import took 0.007813 seconds .
+  Time since last request: 2.798232 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyShaders/Shaders/LowPolyPBRShader.shader
+  artifactKey: Guid(a97e290cd0cec1a4cb176e474e69c1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyShaders/Shaders/LowPolyPBRShader.shader using Guid(a97e290cd0cec1a4cb176e474e69c1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ff2cf4d2d7c143146c89c3e097ee0c') in 0.059106 seconds
+  Import took 0.066434 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota1.jpg
-  artifactKey: Guid(89fddfcff2e6c994fac6db40f3c467b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota1.jpg using Guid(89fddfcff2e6c994fac6db40f3c467b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf238e7769f0aa43ee7b35ec9383f20') in 0.007879 seconds
-  Import took 0.012669 seconds .
+  Time since last request: 324.595898 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Demo/Low Poly Road Pack Demo.unity
+  artifactKey: Guid(8d68a8c139112ee4387ec230ac89a4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Demo/Low Poly Road Pack Demo.unity using Guid(8d68a8c139112ee4387ec230ac89a4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15156ba023dcb3790f7bd32f619bceb') in 0.012395 seconds
+  Import took 0.019517 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota4.jpg
-  artifactKey: Guid(4663404c49c041e458775c11fd41f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota4.jpg using Guid(4663404c49c041e458775c11fd41f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4697ed46d4d364bb0f4858047397be5f') in 0.007971 seconds
-  Import took 0.011705 seconds .
+  Time since last request: 42.695516 seconds.
+  path: Assets/Athi (TheBlueStuff)/Athi.unity
+  artifactKey: Guid(98d9dce4921800b4c8b28fb12e8635fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Athi.unity using Guid(98d9dce4921800b4c8b28fb12e8635fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145d6114c98c7c939872c3c4a3798a7f') in 0.310496 seconds
+  Import took 0.317284 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota3.jpg
-  artifactKey: Guid(b754794e7d1ac3d40955613d852c7e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota3.jpg using Guid(b754794e7d1ac3d40955613d852c7e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3016c464fdca62411a58e5dd2885f3f5') in 0.003684 seconds
-  Import took 0.007580 seconds .
+  Time since last request: 85.602523 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Materials/Road Colorscheme.mat
+  artifactKey: Guid(59154c63c9b2738448838ec3193395de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Materials/Road Colorscheme.mat using Guid(59154c63c9b2738448838ec3193395de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01df40dff3de4251695a0780e920dd11') in 0.688815 seconds
+  Import took 0.696680 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota2.jpg
-  artifactKey: Guid(7c68c406998668c40bfff676173c5f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota2.jpg using Guid(7c68c406998668c40bfff676173c5f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353c82cfedeef7662b4798b683e00f29') in 0.006924 seconds
-  Import took 0.010958 seconds .
+  Time since last request: 1735.512787 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 2.mat
+  artifactKey: Guid(1968bf9d74d362c408b28c15132baaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 2.mat using Guid(1968bf9d74d362c408b28c15132baaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85f2a16fff263dbf7a9b9b3782555bb') in 0.556885 seconds
+  Import took 0.566171 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota8.jpg
-  artifactKey: Guid(4bb76716e376ade4b81f81fccda7660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota8.jpg using Guid(4bb76716e376ade4b81f81fccda7660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400c7dcad6370033ed7fdaad7ade67bc') in 0.006469 seconds
-  Import took 0.010214 seconds .
+  Time since last request: 0.000407 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Materials/Road.mat
+  artifactKey: Guid(9cbdac3088fceec40bde6d0619e2ebda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Materials/Road.mat using Guid(9cbdac3088fceec40bde6d0619e2ebda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44489cd742ea256a2a52970c7a182a52') in 0.045670 seconds
+  Import took 0.051971 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota6.jpg
-  artifactKey: Guid(dce643bd4e3f40a49a2996173d0b066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota6.jpg using Guid(dce643bd4e3f40a49a2996173d0b066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46b76209ef307a3768b4a17a718b026') in 0.006365 seconds
-  Import took 0.010382 seconds .
+  Time since last request: 22.475464 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Materials/Road.mat
+  artifactKey: Guid(9cbdac3088fceec40bde6d0619e2ebda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/BrokenVector/LowPolyRoadPack/Materials/Road.mat using Guid(9cbdac3088fceec40bde6d0619e2ebda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a0b9f2b72adcc4b2e68dd7c2eba128') in 0.028898 seconds
+  Import took 0.035897 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota4.jpg
-  artifactKey: Guid(23beb1b902b6cf94a9e57e21c4f1aab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota4.jpg using Guid(23beb1b902b6cf94a9e57e21c4f1aab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685d6de9ed8257e0ddb7a645f89989e4') in 0.008030 seconds
-  Import took 0.011794 seconds .
+  Time since last request: 2009.564028 seconds.
+  path: Assets/Athi (TheBlueStuff)/Green.mat
+  artifactKey: Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Green.mat using Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee9df936f80dd6b78824345d4a39f44') in 0.025074 seconds
+  Import took 0.031929 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota7.jpg
-  artifactKey: Guid(922af801cdfb55a4082bf7b4b46510c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota7.jpg using Guid(922af801cdfb55a4082bf7b4b46510c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc598ac1d9c96ab84ac8b4c445f5345a') in 0.003604 seconds
-  Import took 0.008235 seconds .
+  Time since last request: 2985.417432 seconds.
+  path: Assets/Athi (TheBlueStuff)/Green.mat
+  artifactKey: Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Green.mat using Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed88f6dcb0ed78ff9155ed6cc3e36e45') in 0.029379 seconds
+  Import took 0.035887 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota6.jpg
-  artifactKey: Guid(a0cc11d5927dbb542afdbe9f4df2ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota6.jpg using Guid(a0cc11d5927dbb542afdbe9f4df2ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b04f97a28b2a2851910c2370bd4e79e') in 0.003353 seconds
-  Import took 0.007460 seconds .
+  Time since last request: 37.708108 seconds.
+  path: Assets/Athi (TheBlueStuff)/Terrain1.mat
+  artifactKey: Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Terrain1.mat using Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8f7eb77a6f34a6afefa04461823a88') in 0.025134 seconds
+  Import took 0.031271 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota1.jpg
-  artifactKey: Guid(4f4b9a175e4377746b3f7f6bc361ec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota1.jpg using Guid(4f4b9a175e4377746b3f7f6bc361ec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778a103ff5ba97796ca9a62edf52a2fb') in 0.006948 seconds
-  Import took 0.010489 seconds .
+  Time since last request: 43.730924 seconds.
+  path: Assets/Athi (TheBlueStuff)/AthixCliffJagged004_COL_VAR1_3K.tif
+  artifactKey: Guid(0d72e3c87bfd59049b628edbcc53c23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/AthixCliffJagged004_COL_VAR1_3K.tif using Guid(0d72e3c87bfd59049b628edbcc53c23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bc03033f4724b25a4d1074d505ec17') in 0.089322 seconds
+  Import took 0.097615 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota6.jpg
-  artifactKey: Guid(a0cc11d5927dbb542afdbe9f4df2ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota6.jpg using Guid(a0cc11d5927dbb542afdbe9f4df2ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b04f97a28b2a2851910c2370bd4e79e') in 0.003285 seconds
-  Import took 0.007394 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/Athi (TheBlueStuff)/CliffJagged004_COL_VAR1_3K.jpg
+  artifactKey: Guid(017f6a875fb4b4543919c9a3273d4b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/CliffJagged004_COL_VAR1_3K.jpg using Guid(017f6a875fb4b4543919c9a3273d4b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efc7ff0dd7e559658c9d27896eac2d7') in 0.055042 seconds
+  Import took 0.062162 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002991 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.981 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.4 MB.
-System memory in use after: 136.7 MB.
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Athi (TheBlueStuff)/CliffJagged004_DISP_VAR1_3K.jpg
+  artifactKey: Guid(acbb0a576a962454587fc00e82147334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/CliffJagged004_DISP_VAR1_3K.jpg using Guid(acbb0a576a962454587fc00e82147334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2040e1a0e3e9a2b03f6ac6c6995bf6') in 0.025418 seconds
+  Import took 0.032791 seconds .
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3565.
-Total: 2.388700 ms (FindLiveObjects: 0.269700 ms CreateObjectMapping: 0.115700 ms MarkObjects: 1.984600 ms  DeleteObjects: 0.017800 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Athi (TheBlueStuff)/CliffJagged004_COL_VAR1_3K.jpg
+  artifactKey: Guid(017f6a875fb4b4543919c9a3273d4b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/CliffJagged004_COL_VAR1_3K.jpg using Guid(017f6a875fb4b4543919c9a3273d4b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efc7ff0dd7e559658c9d27896eac2d7') in 0.017466 seconds
+  Import took 0.022575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Athi (TheBlueStuff)/CliffJagged004_NRM_3K.jpg
+  artifactKey: Guid(7b32904dc64338b4a979666285ba5e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/CliffJagged004_NRM_3K.jpg using Guid(7b32904dc64338b4a979666285ba5e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7882dad4b11ddc4a733e2b1c10e8a9ac') in 0.026324 seconds
+  Import took 0.032574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.973946 seconds.
+  path: Assets/Athi (TheBlueStuff)/GroundForest003_COL_VAR1_3K.jpg
+  artifactKey: Guid(96055627b597f4d449c86f42200f8954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/GroundForest003_COL_VAR1_3K.jpg using Guid(96055627b597f4d449c86f42200f8954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738fe3471c9d118d17d8af187f81dc14') in 0.036480 seconds
+  Import took 0.043801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Athi (TheBlueStuff)/GroundSoilxAthi_COL_VAR1_3K 1.jpg
+  artifactKey: Guid(7f043c002a61c4343a734f93dafd23df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/GroundSoilxAthi_COL_VAR1_3K 1.jpg using Guid(7f043c002a61c4343a734f93dafd23df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5451b592eb341d2f3364dffafd632951') in 0.142376 seconds
+  Import took 0.148854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Athi (TheBlueStuff)/GroundForest003_DISP16_3K.tif
+  artifactKey: Guid(6c91b10280c200a4ca5c1c6b8b16d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/GroundForest003_DISP16_3K.tif using Guid(6c91b10280c200a4ca5c1c6b8b16d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82296d322468bbae1c94e8ddcf343f4') in 0.075153 seconds
+  Import took 0.080754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Athi (TheBlueStuff)/GroundForest003_NRM_3K.jpg
+  artifactKey: Guid(beab37a47cd4a7044908e00fbe837156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/GroundForest003_NRM_3K.jpg using Guid(beab37a47cd4a7044908e00fbe837156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c2e96686cfc28223753fcf02e0fed7') in 0.028641 seconds
+  Import took 0.036713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.581222 seconds.
+  path: Assets/Athi (TheBlueStuff)/RoughConcrete2_2x2_1024_normal.tif
+  artifactKey: Guid(75618b255958c7047a6410c4e6317a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/RoughConcrete2_2x2_1024_normal.tif using Guid(75618b255958c7047a6410c4e6317a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a339ba9fd1e7b70ec5acc206804766') in 0.023663 seconds
+  Import took 0.029918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.413592 seconds.
+  path: Assets/Athi (TheBlueStuff)/Textures
+  artifactKey: Guid(f819eeed6697aa9498d38e961d3521fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Textures using Guid(f819eeed6697aa9498d38e961d3521fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2335372c187535a452e72e59544f896') in 0.010280 seconds
+  Import took 0.016020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.251431 seconds.
+  path: Assets/Vedanth (V Master)/Materials/Placeholder/Textures/Asphalt.jpg
+  artifactKey: Guid(d7d6bacff5d6c7e43928deea1039966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master)/Materials/Placeholder/Textures/Asphalt.jpg using Guid(d7d6bacff5d6c7e43928deea1039966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca11df1599f38c37a226364a093f6995') in 0.064026 seconds
+  Import took 0.070610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Vedanth (V Master)/Materials/Placeholder/Textures/Asphalt 1.jpg
+  artifactKey: Guid(3e3e4332a966779458e7080338588b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master)/Materials/Placeholder/Textures/Asphalt 1.jpg using Guid(3e3e4332a966779458e7080338588b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcb8d60f46b9d21416e36fd0885a8bf') in 0.132118 seconds
+  Import took 0.137988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Vedanth (V Master)/Materials/Placeholder/Textures/Asphalt.jpg
+  artifactKey: Guid(d7d6bacff5d6c7e43928deea1039966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master)/Materials/Placeholder/Textures/Asphalt.jpg using Guid(d7d6bacff5d6c7e43928deea1039966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca11df1599f38c37a226364a093f6995') in 0.016669 seconds
+  Import took 0.022174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Vedanth (V Master)/Materials/Placeholder/Textures/Asphalt 1.jpg
+  artifactKey: Guid(3e3e4332a966779458e7080338588b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master)/Materials/Placeholder/Textures/Asphalt 1.jpg using Guid(3e3e4332a966779458e7080338588b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcb8d60f46b9d21416e36fd0885a8bf') in 0.020273 seconds
+  Import took 0.025777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky8/back62.jpg
+  artifactKey: Guid(4049bc1832ab34342b3584f0e746f215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky8/back62.jpg using Guid(4049bc1832ab34342b3584f0e746f215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f10c270588945c17c95d485e25894c') in 0.179851 seconds
+  Import took 0.185091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky11/backav9.jpg
+  artifactKey: Guid(d538a854bc247644297abafd8c1b7449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky11/backav9.jpg using Guid(d538a854bc247644297abafd8c1b7449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e043e268de09f94c2d916951de6de8a8') in 0.071510 seconds
+  Import took 0.077562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky14/back1h.jpg
+  artifactKey: Guid(933f3762d9d5cad4aaff2469070b12d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky14/back1h.jpg using Guid(933f3762d9d5cad4aaff2469070b12d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bc94d0790d0867e2fd105f5553ee04') in 0.143496 seconds
+  Import took 0.149219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky13/back55.jpg
+  artifactKey: Guid(ef9e4e6cba614164b95d0908a0306e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky13/back55.jpg using Guid(ef9e4e6cba614164b95d0908a0306e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b307479232fcddce6d188721cc50ef') in 0.154512 seconds
+  Import took 0.159667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.374416 seconds.
+  path: Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky7/backaw2.jpg
+  artifactKey: Guid(5b81fdc7fbc0311428d425619835a53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky7/backaw2.jpg using Guid(5b81fdc7fbc0311428d425619835a53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cebd369cc8a434378befc49eb3bc59c') in 0.067757 seconds
+  Import took 0.073817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky12/backax2.jpg
+  artifactKey: Guid(4ffd8e4efac29f34a81dafeb32089170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky12/backax2.jpg using Guid(4ffd8e4efac29f34a81dafeb32089170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fde3405b3b324ec6900f5b02b0ec20d') in 0.108677 seconds
+  Import took 0.114079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.934344 seconds.
+  path: Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky18/backred2.jpg
+  artifactKey: Guid(8c629239480fcb84eac85b733a93ee0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky18/backred2.jpg using Guid(8c629239480fcb84eac85b733a93ee0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a153369ae51d960fd74279b2320186') in 0.211630 seconds
+  Import took 0.218291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky15/backsa3.jpg
+  artifactKey: Guid(326f9e45224362f42b61eacb5ddff61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky15/backsa3.jpg using Guid(326f9e45224362f42b61eacb5ddff61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbfb7a9adc55d0172b3d06db2034744') in 0.170698 seconds
+  Import took 0.177230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.355230 seconds.
+  path: Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky9/backsnow1.jpg
+  artifactKey: Guid(74e0bc3cb3c7ed245acc6058e073a95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky9/backsnow1.jpg using Guid(74e0bc3cb3c7ed245acc6058e073a95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60b7af5eca70c73d7a94dd1434e9d2e') in 0.150024 seconds
+  Import took 0.159206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky10/backsnowe.jpg
+  artifactKey: Guid(9c51f52d0291b33408338173c3d13d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky10/backsnowe.jpg using Guid(9c51f52d0291b33408338173c3d13d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fefd81617e6801ed40a866a0789995') in 0.149070 seconds
+  Import took 0.154993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky16/backw3.jpg
+  artifactKey: Guid(9ca2009619fc0184abe99613966a2218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Skybox Templates/Source Images/Sky16/backw3.jpg using Guid(9ca2009619fc0184abe99613966a2218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fa855253973adeee923d30d2134800') in 0.125116 seconds
+  Import took 0.130628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke00.png
+  artifactKey: Guid(4da7ae0e024f749aea14c44c3fd6f842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke00.png using Guid(4da7ae0e024f749aea14c44c3fd6f842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd23021ae4d906d0c82208f4f790d6af') in 0.069546 seconds
+  Import took 0.074943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke01.png
+  artifactKey: Guid(8992eba4746ad41ba89d2b10237d97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke01.png using Guid(8992eba4746ad41ba89d2b10237d97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40230b9550fbd09d60ab495c53569ac0') in 0.081258 seconds
+  Import took 0.086799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.700501 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke02.png
+  artifactKey: Guid(4d808d0ceb6a04ae3a8d8ebe1440f1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke02.png using Guid(4d808d0ceb6a04ae3a8d8ebe1440f1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65aed66cff95de553173a260b190e505') in 0.036060 seconds
+  Import took 0.041898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke03.png
+  artifactKey: Guid(da4751137b48441639f2c006be3706d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke03.png using Guid(da4751137b48441639f2c006be3706d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8d0976396e3a6f4bc00bc4d37095fa') in 0.026951 seconds
+  Import took 0.032704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055769 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke04.png
+  artifactKey: Guid(9cafb22ffe7a944e3a90b001fa1c9d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke04.png using Guid(9cafb22ffe7a944e3a90b001fa1c9d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c807c3beb3a2c5a7221df4d8d92ad0a') in 0.026918 seconds
+  Import took 0.032637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke05.png
+  artifactKey: Guid(5abeebbef27cc403793acf85260dc5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke05.png using Guid(5abeebbef27cc403793acf85260dc5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169728eb69d37a669f8c1418b94c6d92') in 0.027946 seconds
+  Import took 0.032937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.234806 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke06.png
+  artifactKey: Guid(6f32843e9d4834cf681a9927a992a4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke06.png using Guid(6f32843e9d4834cf681a9927a992a4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215c39039e82e39abacb921e2bde2446') in 0.135315 seconds
+  Import took 0.141665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke07.png
+  artifactKey: Guid(6c51fbfe0d5db422594af740e77f497a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Plugins/Arcade_Car_Physics/Textures/Black smoke/blackSmoke07.png using Guid(6c51fbfe0d5db422594af740e77f497a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d9e533a0897ba78bc9ae8fc05a72ea') in 0.116040 seconds
+  Import took 0.121449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.734831 seconds.
+  path: Assets/Athi (TheBlueStuff)/NewBrush.brush
+  artifactKey: Guid(0f057c541a55cab488b5fb1b9d5b6e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/NewBrush.brush using Guid(0f057c541a55cab488b5fb1b9d5b6e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e63f0c4e08c77571b10ad4b3e29471b') in 0.050275 seconds
+  Import took 0.058539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011525 seconds.
+  path: Assets/Athi (TheBlueStuff)/NewBrush.brush
+  artifactKey: Guid(0f057c541a55cab488b5fb1b9d5b6e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/NewBrush.brush using Guid(0f057c541a55cab488b5fb1b9d5b6e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e63f0c4e08c77571b10ad4b3e29471b') in 0.017885 seconds
+  Import took 0.025093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.067884 seconds.
+  path: Assets/Athi (TheBlueStuff)/NewBrush 1.brush
+  artifactKey: Guid(5c2e368c6937f784080266aaaf34f3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/NewBrush 1.brush using Guid(5c2e368c6937f784080266aaaf34f3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8c9a603a6a50a23080bd7a70b31622') in 0.022372 seconds
+  Import took 0.028662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003425 seconds.
+  path: Assets/Athi (TheBlueStuff)/NewBrush 1.brush
+  artifactKey: Guid(5c2e368c6937f784080266aaaf34f3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/NewBrush 1.brush using Guid(5c2e368c6937f784080266aaaf34f3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8c9a603a6a50a23080bd7a70b31622') in 0.050530 seconds
+  Import took 0.056514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.611764 seconds.
+  path: Assets/Athi (TheBlueStuff)/Textures/Terrain1 1.mat
+  artifactKey: Guid(72326caa604b8274ebfd1f072cd4153f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Textures/Terrain1 1.mat using Guid(72326caa604b8274ebfd1f072cd4153f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d54b2c9e8bd55cd7db526e41f468cd0') in 0.024340 seconds
+  Import took 0.030753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.998797 seconds.
+  path: Assets/Athi (TheBlueStuff)/Textures/RoughConcrete2_2x2_1024_albedo.tif
+  artifactKey: Guid(3a663d7ffaf52324eacb424215a17d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Textures/RoughConcrete2_2x2_1024_albedo.tif using Guid(3a663d7ffaf52324eacb424215a17d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b6e78f04b377410f129f1343712316') in 0.053180 seconds
+  Import took 0.060369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Athi (TheBlueStuff)/Textures/RoughConcrete2_2x2_1024_ao.tif
+  artifactKey: Guid(2cef33eae28e0c341b5eb68566c99560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Textures/RoughConcrete2_2x2_1024_ao.tif using Guid(2cef33eae28e0c341b5eb68566c99560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d618f3376840b7175467a022c5f8d3') in 0.025589 seconds
+  Import took 0.033414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Athi (TheBlueStuff)/Textures/RoughConcrete2_2x2_1024_height.tif
+  artifactKey: Guid(7759a6eded4626243af20886e5067912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Textures/RoughConcrete2_2x2_1024_height.tif using Guid(7759a6eded4626243af20886e5067912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb79dea7bc85e94bc2e13906c7b1b9a2') in 0.027755 seconds
+  Import took 0.037201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Athi (TheBlueStuff)/Textures/RoughConcrete2_2x2_1024_normal 1.tif
+  artifactKey: Guid(5996fffa6754724498046379d21a5477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Textures/RoughConcrete2_2x2_1024_normal 1.tif using Guid(5996fffa6754724498046379d21a5477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0330288ec96ce3fc9965262fbd832aab') in 0.024380 seconds
+  Import took 0.032072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.886337 seconds.
+  path: Assets/Athi (TheBlueStuff)/Textures/Concrete.mat
+  artifactKey: Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Textures/Concrete.mat using Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46961b6f0c4d8cfd6fd3ccb723e4ccd3') in 0.022029 seconds
+  Import took 0.027937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.652783 seconds.
+  path: Assets/Athi (TheBlueStuff)/Textures/Concrete.mat
+  artifactKey: Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Textures/Concrete.mat using Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e0bbf62b4b02628c69473895e3f0ad') in 0.080162 seconds
+  Import took 0.087100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Athi (TheBlueStuff)/Textures/Terrain1 1.mat
+  artifactKey: Guid(72326caa604b8274ebfd1f072cd4153f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Textures/Terrain1 1.mat using Guid(72326caa604b8274ebfd1f072cd4153f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f61fc6133062604f8aaf0dc59a183a') in 0.076957 seconds
+  Import took 0.098267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.795211 seconds.
+  path: Assets/Athi (TheBlueStuff)/Textures/Green.mat
+  artifactKey: Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Textures/Green.mat using Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4983300a9ad5e92362f6838fc0ef2c26') in 0.046494 seconds
+  Import took 0.052955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.574679 seconds.
+  path: Assets/Athi (TheBlueStuff)/Textures/Concrete 1.mat
+  artifactKey: Guid(35e3d33dbb949f1489dacfa73308340a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Textures/Concrete 1.mat using Guid(35e3d33dbb949f1489dacfa73308340a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d01ce276a908d7f0a71abec2901bec') in 0.027818 seconds
+  Import took 0.034143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Athi (TheBlueStuff)/Textures/Green.mat
+  artifactKey: Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Athi (TheBlueStuff)/Textures/Green.mat using Guid(ed04e0ae3073fcc42a0625549d546ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0be00a82d903ffdc62ed047c67a7b4') in 0.045474 seconds
+  Import took 0.050799 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
