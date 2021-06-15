@@ -15,11 +15,11 @@ E:/ITTYNK Game Jam/ITTHYNK/SSS_Taxi Game_ITTHYNK
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57597
+57830
 Successfully changed project path to: E:/ITTYNK Game Jam/ITTHYNK/SSS_Taxi Game_ITTHYNK
 E:/ITTYNK Game Jam/ITTHYNK/SSS_Taxi Game_ITTHYNK
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 62.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 59.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -36,92 +36,213 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001718 seconds.
+Registered in 0.001631 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 79.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.534 seconds
+- Completed reload, in  1.536 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002831 seconds.
+Registered in 0.002833 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 52.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
+- Completed reload, in  1.034 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2987 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.1 MB.
-System memory in use after: 133.3 MB.
+Unloading 3035 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.8 MB.
+System memory in use after: 90.5 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3428.
-Total: 2.297200 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.091300 ms MarkObjects: 1.866600 ms  DeleteObjects: 0.062600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Vedanth (V Master)/URP
-  artifactKey: Guid(27de1e639d34ace4c98de38e6b81c86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/URP using Guid(27de1e639d34ace4c98de38e6b81c86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf95ce2a396c9d7a7cfb4ac3055f5db') in 0.010928 seconds
-  Import took 0.014606 seconds .
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3476.
+Total: 3.565800 ms (FindLiveObjects: 0.303800 ms CreateObjectMapping: 0.112600 ms MarkObjects: 3.087400 ms  DeleteObjects: 0.061100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.553516 seconds.
-  path: Assets/Vedanth (V Master)/URP/URP.asset
-  artifactKey: Guid(889ba13c30b04614a99baf84b92e1399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/URP/URP.asset using Guid(889ba13c30b04614a99baf84b92e1399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81973f0d8b3d7dda92a34ba14e5c4dc') in 0.064173 seconds
-  Import took 0.068556 seconds .
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_low_poly.fbx
+  artifactKey: Guid(76df369d597355046923f4461735e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_low_poly.fbx using Guid(76df369d597355046923f4461735e966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efb13a6286b42cc54b0dd83054d6810') in 0.323001 seconds
+  Import took 0.327442 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Vedanth (V Master)/URP/URP_Renderer.asset
-  artifactKey: Guid(124ba49d72e04da4bbe2ea028670ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/URP/URP_Renderer.asset using Guid(124ba49d72e04da4bbe2ea028670ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b951d6e5052263d5448ff284b081ad6') in 0.030384 seconds
-  Import took 0.034431 seconds .
+  Time since last request: 1573.678159 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/toyota2.mat
+  artifactKey: Guid(5677ddf5c88f0b3468e7a62bfc2b3f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/toyota2.mat using Guid(5677ddf5c88f0b3468e7a62bfc2b3f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e583627e932d4df5c795c9e43b3420e9') in 0.022790 seconds
+  Import took 0.027712 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.821143 seconds.
-  path: Assets/Vedanth (V Master)/URP/URP.asset
-  artifactKey: Guid(889ba13c30b04614a99baf84b92e1399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/URP/URP.asset using Guid(889ba13c30b04614a99baf84b92e1399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49008d567f04b095e7905948b92fbf3') in 0.011212 seconds
-  Import took 0.015649 seconds .
+  Time since last request: 3.244348 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota.jpg
+  artifactKey: Guid(ada493976818dc4489d77fe59fa75127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota.jpg using Guid(ada493976818dc4489d77fe59fa75127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f323a7d1915ed902eca397447cfc10') in 0.023156 seconds
+  Import took 0.027206 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Vedanth (V Master)/URP/URP_Renderer.asset
-  artifactKey: Guid(124ba49d72e04da4bbe2ea028670ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vedanth (V Master)/URP/URP_Renderer.asset using Guid(124ba49d72e04da4bbe2ea028670ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6f1080e3d1941df2e67db1ff25713a') in 0.011972 seconds
-  Import took 0.016159 seconds .
+  Time since last request: 0.000222 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota2.jpg
+  artifactKey: Guid(eab6bd34f4b21514eb6af5c70d7ba392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota2.jpg using Guid(eab6bd34f4b21514eb6af5c70d7ba392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f738c5f4c7cd6ae460c2d5d0a4dbb7fb') in 0.008980 seconds
+  Import took 0.012793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota3.jpg
+  artifactKey: Guid(d2fd15c026249fc4dbdde509b7d95e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota3.jpg using Guid(d2fd15c026249fc4dbdde509b7d95e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e94e23917865538cd7ecb66b70d0564') in 0.008400 seconds
+  Import took 0.012421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota7.jpg
+  artifactKey: Guid(d1404d27dad0a9d449057da0b5d3ebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota7.jpg using Guid(d1404d27dad0a9d449057da0b5d3ebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d31869c23faa1e7474421849b30a32') in 0.007958 seconds
+  Import took 0.012118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota5.jpg
+  artifactKey: Guid(02edebf9cf635254081f1eed1c78c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota5.jpg using Guid(02edebf9cf635254081f1eed1c78c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5804c294e81f9b12df24c92ef067d30f') in 0.007383 seconds
+  Import took 0.011351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota5.jpg
+  artifactKey: Guid(7075975ac7a62794a91c2a8f34415f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota5.jpg using Guid(7075975ac7a62794a91c2a8f34415f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d38ecfa12aa96f06dc62a0da2727727') in 0.004068 seconds
+  Import took 0.007813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota1.jpg
+  artifactKey: Guid(89fddfcff2e6c994fac6db40f3c467b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota1.jpg using Guid(89fddfcff2e6c994fac6db40f3c467b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf238e7769f0aa43ee7b35ec9383f20') in 0.007879 seconds
+  Import took 0.012669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota4.jpg
+  artifactKey: Guid(4663404c49c041e458775c11fd41f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota4.jpg using Guid(4663404c49c041e458775c11fd41f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4697ed46d4d364bb0f4858047397be5f') in 0.007971 seconds
+  Import took 0.011705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota3.jpg
+  artifactKey: Guid(b754794e7d1ac3d40955613d852c7e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota3.jpg using Guid(b754794e7d1ac3d40955613d852c7e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3016c464fdca62411a58e5dd2885f3f5') in 0.003684 seconds
+  Import took 0.007580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota2.jpg
+  artifactKey: Guid(7c68c406998668c40bfff676173c5f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota2.jpg using Guid(7c68c406998668c40bfff676173c5f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353c82cfedeef7662b4798b683e00f29') in 0.006924 seconds
+  Import took 0.010958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota8.jpg
+  artifactKey: Guid(4bb76716e376ade4b81f81fccda7660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota8.jpg using Guid(4bb76716e376ade4b81f81fccda7660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400c7dcad6370033ed7fdaad7ade67bc') in 0.006469 seconds
+  Import took 0.010214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota6.jpg
+  artifactKey: Guid(dce643bd4e3f40a49a2996173d0b066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota6.jpg using Guid(dce643bd4e3f40a49a2996173d0b066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46b76209ef307a3768b4a17a718b026') in 0.006365 seconds
+  Import took 0.010382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota4.jpg
+  artifactKey: Guid(23beb1b902b6cf94a9e57e21c4f1aab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota4.jpg using Guid(23beb1b902b6cf94a9e57e21c4f1aab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685d6de9ed8257e0ddb7a645f89989e4') in 0.008030 seconds
+  Import took 0.011794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota7.jpg
+  artifactKey: Guid(922af801cdfb55a4082bf7b4b46510c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota7.jpg using Guid(922af801cdfb55a4082bf7b4b46510c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc598ac1d9c96ab84ac8b4c445f5345a') in 0.003604 seconds
+  Import took 0.008235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota6.jpg
+  artifactKey: Guid(a0cc11d5927dbb542afdbe9f4df2ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota6.jpg using Guid(a0cc11d5927dbb542afdbe9f4df2ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b04f97a28b2a2851910c2370bd4e79e') in 0.003353 seconds
+  Import took 0.007460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota1.jpg
+  artifactKey: Guid(4f4b9a175e4377746b3f7f6bc361ec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vedanth (V Master)/Textures/Quantum_Taxi_Low_Poly/toyota1.jpg using Guid(4f4b9a175e4377746b3f7f6bc361ec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778a103ff5ba97796ca9a62edf52a2fb') in 0.006948 seconds
+  Import took 0.010489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota6.jpg
+  artifactKey: Guid(a0cc11d5927dbb542afdbe9f4df2ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerome (OWL7seven)/Resources/Models/Quantum_Taxi_Low_Poly/toyota6.jpg using Guid(a0cc11d5927dbb542afdbe9f4df2ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b04f97a28b2a2851910c2370bd4e79e') in 0.003285 seconds
+  Import took 0.007394 seconds .
 
 ========================================================================
 Received Prepare
-Switching render pipeline 00000000000000000000000000000000 -> 889ba13c30b04614a99baf84b92e1399
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.66 ms, found 2 plugins.
+Registering precompiled user dll's ...
+Registered in 0.002991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.3 MB.
-System memory in use after: 74.5 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.4 MB.
+System memory in use after: 136.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3476.
-Total: 3.211200 ms (FindLiveObjects: 0.402500 ms CreateObjectMapping: 0.218900 ms MarkObjects: 2.567900 ms  DeleteObjects: 0.020400 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3565.
+Total: 2.388700 ms (FindLiveObjects: 0.269700 ms CreateObjectMapping: 0.115700 ms MarkObjects: 1.984600 ms  DeleteObjects: 0.017800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
