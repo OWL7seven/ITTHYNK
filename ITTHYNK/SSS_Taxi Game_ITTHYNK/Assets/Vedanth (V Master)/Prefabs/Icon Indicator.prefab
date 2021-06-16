@@ -153,6 +153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7552890485227009153}
   - component: {fileID: 7552890485227009154}
+  - component: {fileID: -8942771447601415348}
   m_Layer: 5
   m_Name: Icon Indicator
   m_TagString: Untagged
@@ -193,8 +194,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8629d1a3b82c5140a825a48e325ab50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PassengerFace: {fileID: 7552890486741095179}
   Distance: {fileID: 7552890484820780656}
   DesiredLocation: {fileID: 0}
+  nametarg: BOIIII
+--- !u!225 &-8942771447601415348
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7552890485227009152}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7552890486741095179
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,6 +225,7 @@ GameObject:
   - component: {fileID: 7552890486741095169}
   - component: {fileID: 7552890486741095168}
   - component: {fileID: 7552890486741095175}
+  - component: {fileID: 683111291074343002}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -334,3 +350,15 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 2, y: 2}
   m_UseGraphicAlpha: 1
+--- !u!225 &683111291074343002
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7552890486741095179}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0

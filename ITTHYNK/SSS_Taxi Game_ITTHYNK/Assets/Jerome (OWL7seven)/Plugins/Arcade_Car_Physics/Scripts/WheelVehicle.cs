@@ -16,7 +16,11 @@ using UnityEngine.InputSystem;
 namespace VehicleBehaviour {
     [RequireComponent(typeof(Rigidbody))]
     public class WheelVehicle : MonoBehaviour {
+        [Space]
+        [Header("Input Values")]
 
+        float movement, rpm;
+        float Acc, Rev, Tur, Dri, bra, boo, jum;
         InputMain controls;
 
         [Header("Inputs")]
@@ -207,7 +211,8 @@ namespace VehicleBehaviour {
             // Set the motor torque to a non null value because 0 means the wheels won't turn no matter what
             foreach (WheelCollider wheel in wheels)
             {
-                wheel.motorTorque = 0.0001f;
+               // wheel.motorTorque = 0.0001f;
+                wheel.motorTorque = 10000f;
             }
         }
 
@@ -235,20 +240,32 @@ namespace VehicleBehaviour {
             // Get all the inputs!
             if (isPlayer) {
                 // Accelerate & brake
-                if (throttleInput != "" && throttleInput != null)
-                {
-                    throttle = GetInput(throttleInput) - GetInput(brakeInput);
-                   // throttle = controls.PlayerTaxi.Accelerate.ReadValue<> - GetInput(brakeInput);
-                }
+             //   if (throttleInput != "" && throttleInput != null)
+               // {
+                  //  throttle = GetInput(throttleInput) - GetInput(brakeInput);
+                  //  throttle = Rev - bra;
+                    //throttle = rpm - bra;
+                    throttle = (rpm - bra) *10;
+                 //}
                 // Boost
-                boosting = (GetInput(boostInput) > 0.5f);
+                //boosting = (GetInput(boostInput) > 0.5f);
+                boosting = (boo > 0.5f);
                 // Turn
-                steering = turnInputCurve.Evaluate(GetInput(turnInput)) * steerAngle;
+                //steering = turnInputCurve.Evaluate(GetInput(turnInput)) * steerAngle;
+                steering = turnInputCurve.Evaluate(movement) * steerAngle;
                 // Dirft
-                drift = GetInput(driftInput) > 0 && _rb.velocity.sqrMagnitude > 100;
+                //drift = GetInput(driftInput) > 0 && _rb.velocity.sqrMagnitude > 100;
+                drift = Dri > 0 && _rb.velocity.sqrMagnitude > 100;
                 // Jump
-                jumping = GetInput(jumpInput) != 0;
+                //jumping = GetInput(jumpInput) != 0;
+                jumping = jum != 0;
             }
+
+            //Speed
+            Debug.Log(throttle);
+         //   Acc = Mathf.SmoothStep(Acc, Speed, Time.deltaTime * (rpm * 2));
+           // GetComponent<Rigidbody>().AddForce(transform.TransformDirection(Vector3.right) * Acc, ForceMode.Acceleration);
+
 
             // Direction
             foreach (WheelCollider wheel in turnWheel)
@@ -365,26 +382,43 @@ namespace VehicleBehaviour {
 #if MULTIOSCONTROLS
         return MultiOSControls.GetValue(input, playerId);
 #else
-            return Input.GetAxis(input);
+            //return Input.GetAxis(input);
+            return 0;
             //return controls.PlayerTaxi.Get();
 #endif
         }
 
 
         //Vedanth's edit
-    /*    private void Awake()
+        private void Awake()
         {
-            controls = new InputMain();
+            
+            
+                //Input System
+                controls = new InputMain();
+            //    rigi = GetComponent<Rigidbody>();
+                controls.Enable();
+                // controls.PlayerTaxi.Accelerate.performed += _ => Accel();
+                controls.PlayerTaxi.Accelerate.performed += ctx => rpm = ctx.ReadValue<float>();
+                controls.PlayerTaxi.Accelerate.performed += ctx => Rev = ctx.ReadValue<float>();
+                controls.PlayerTaxi.Accelerate.canceled += ctx => rpm = ctx.ReadValue<float>();
+                controls.PlayerTaxi.Reverse.performed += ctx => bra = ctx.ReadValue<float>();
+                controls.PlayerTaxi.Reverse.canceled += ctx => bra = ctx.ReadValue<float>();
+                controls.PlayerTaxi.Turning.performed += ctx => movement = ctx.ReadValue<float>();      //Turn();
+                controls.PlayerTaxi.Boost.performed += ctx => boo = ctx.ReadValue<float>();     
+                controls.PlayerTaxi.Boost.canceled += ctx => boo = ctx.ReadValue<float>();     
+                controls.PlayerTaxi.Jump.performed += ctx => jum = ctx.ReadValue<float>();      
+                controls.PlayerTaxi.Jump.canceled += ctx => jum = ctx.ReadValue<float>();      
+                controls.PlayerTaxi.Drift.performed += ctx => Dri = ctx.ReadValue<float>();      
+                controls.PlayerTaxi.Drift.canceled += ctx => Dri = ctx.ReadValue<float>();      
+                controls.PlayerTaxi.Turning.canceled += ctx => movement = ctx.ReadValue<float>();
+               // controls.PlayerTaxi.Drift.performed += _ => Drifting();
 
-                throttleInput = controls.PlayerTaxi.Accelerate.ToString();
-                brakeInput = controls.PlayerTaxi.Reverse.name;
-                turnInput = controls.PlayerTaxi.Turning.name;
-                jumpInput = "Jump";
-            driftInput = controls.PlayerTaxi.Drift.name; 
-                boostInput = "Boost";
 
             
-        }*/
+
+
+        }
 
     }
 }

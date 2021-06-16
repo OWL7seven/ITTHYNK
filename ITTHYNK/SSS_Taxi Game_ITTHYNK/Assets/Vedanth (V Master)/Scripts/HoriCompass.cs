@@ -112,6 +112,7 @@ namespace VCompass
 
         }
 
+        // creating North, east, south and west
         void Arrows()
         {
             CreateWayPoints("north", Vector3.forward, true);
@@ -152,6 +153,57 @@ namespace VCompass
             else this.locs[key] = wapo;
 
         }
+
+
+        //Adding a waypoint
+        public bool add(string key, Ways waypo, bool fade = true)
+        {
+            if (locs.ContainsKey(key)) return false;
+
+            waypo.DesiredLocation = Instantiate(waypo.PassengerFace, Waypoints, false);
+            waypo.canGroup = waypo.DesiredLocation.GetComponent<CanvasGroup>();
+            waypo.canGroup.alpha = 0;
+
+            locs.Add(key, waypo);
+
+            if (fade)
+            {
+                waypo.canGroup.alpha = 0.25f;
+            }
+            else
+            {
+                waypo.canGroup.alpha = 1;
+            }
+
+            return true;
+
+        }
+
+
+        // Recieving waypoints
+        public Ways getway(string key)
+        {
+            Ways wapo = null;
+            locs.TryGetValue(key, out wapo);
+            return wapo;
+        }
+
+
+        //removing a waypoint
+        public bool remove(string key)
+        {
+            Ways wp = null;
+            locs.TryGetValue(key, out wp);
+            if(wp != null)
+            {
+                locs.Remove(key);
+                wp.canGroup.alpha = 0;
+                //Destroy(wp, 0.25f);
+                return true;
+            }
+            return false;
+        }
+
 
     }
 }

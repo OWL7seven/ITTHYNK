@@ -15,7 +15,7 @@ public class @InputMain : IInputActionCollection, IDisposable
     ""name"": ""InputMain"",
     ""maps"": [
         {
-            ""name"": ""Player Taxi"",
+            ""name"": ""PlayerTaxi"",
             ""id"": ""06e4bb4b-2fb6-443c-9e5f-79297f0b8af7"",
             ""actions"": [
                 {
@@ -47,6 +47,22 @@ public class @InputMain : IInputActionCollection, IDisposable
                     ""type"": ""Value"",
                     ""id"": ""435ff4fb-d0d9-4d97-a680-0b2f153d8d1d"",
                     ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Boost"",
+                    ""type"": ""Button"",
+                    ""id"": ""d7a52759-ae1c-4228-b5db-8dfd427a13bf"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""Button"",
+                    ""id"": ""cd6d92ec-7939-463f-a774-ad8dc3d48b3b"",
+                    ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
                 }
@@ -81,17 +97,6 @@ public class @InputMain : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Xbox"",
-                    ""action"": ""Accelerate"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""3f1374ea-2144-4008-8a35-214839851517"",
-                    ""path"": ""<Gamepad>/rightTrigger"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
                     ""action"": ""Accelerate"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -142,17 +147,6 @@ public class @InputMain : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""f4695773-9fd3-4393-b1f0-ece079a9d7d7"",
-                    ""path"": ""<Gamepad>/leftTrigger"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Reverse"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""1edda1ad-0850-48a0-8e91-95eace1c5034"",
                     ""path"": ""<SwitchProControllerHID>/leftTrigger"",
                     ""interactions"": """",
@@ -191,17 +185,6 @@ public class @InputMain : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Xbox"",
-                    ""action"": ""Drift"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""0a0108a9-3d3a-409b-ab6d-13a1f6353ba3"",
-                    ""path"": ""<Gamepad>/buttonEast"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
                     ""action"": ""Drift"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -306,39 +289,6 @@ public class @InputMain : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""Gamepad"",
-                    ""id"": ""2883d963-222b-458a-9ae5-512d41489a3b"",
-                    ""path"": ""1DAxis"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Turning"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""negative"",
-                    ""id"": ""e785bf5a-8010-47dc-8da0-370ae9ce753a"",
-                    ""path"": ""<Gamepad>/leftStick/left"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Turning"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""positive"",
-                    ""id"": ""6e4f41ad-b3dd-4b58-8de5-93292179e548"",
-                    ""path"": ""<Gamepad>/leftStick/right"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Turning"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
                     ""name"": ""Switch"",
                     ""id"": ""81beb345-2617-4fa8-80c3-9bb12dbd3eb7"",
                     ""path"": ""1DAxis"",
@@ -381,6 +331,94 @@ public class @InputMain : IInputActionCollection, IDisposable
                     ""action"": ""Drift"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a3c5d902-8c0e-45aa-8ced-df7e58a23d1d"",
+                    ""path"": ""<Keyboard>/leftShift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Boost"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""91613c10-3341-4955-b26b-f11f1ee4abd0"",
+                    ""path"": ""<DualShockGamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Playstation"",
+                    ""action"": ""Boost"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fd52532d-a5a9-482a-9938-66bbfe7ee783"",
+                    ""path"": ""<XInputController>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Xbox"",
+                    ""action"": ""Boost"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0df1c68e-0e78-427e-9cdc-b3f5bb410255"",
+                    ""path"": ""<SwitchProControllerHID>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Switch "",
+                    ""action"": ""Boost"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3848bf37-1f77-40ee-8aab-55f315063d5f"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bc80d28e-ac31-4ff8-beb0-b0457c03210d"",
+                    ""path"": ""<DualShockGamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Playstation"",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""98c1d8d6-c568-4eeb-b6c8-e81c55917b55"",
+                    ""path"": ""<XInputController>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Xbox"",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""11fe2c69-ce68-41cf-a69f-2c902648362d"",
+                    ""path"": ""<SwitchProControllerHID>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Switch "",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -420,17 +458,6 @@ public class @InputMain : IInputActionCollection, IDisposable
             ]
         },
         {
-            ""name"": ""Gamepad"",
-            ""bindingGroup"": ""Gamepad"",
-            ""devices"": [
-                {
-                    ""devicePath"": ""<Gamepad>"",
-                    ""isOptional"": true,
-                    ""isOR"": false
-                }
-            ]
-        },
-        {
             ""name"": ""Switch "",
             ""bindingGroup"": ""Switch "",
             ""devices"": [
@@ -443,12 +470,14 @@ public class @InputMain : IInputActionCollection, IDisposable
         }
     ]
 }");
-        // Player Taxi
-        m_PlayerTaxi = asset.FindActionMap("Player Taxi", throwIfNotFound: true);
+        // PlayerTaxi
+        m_PlayerTaxi = asset.FindActionMap("PlayerTaxi", throwIfNotFound: true);
         m_PlayerTaxi_Accelerate = m_PlayerTaxi.FindAction("Accelerate", throwIfNotFound: true);
         m_PlayerTaxi_Reverse = m_PlayerTaxi.FindAction("Reverse", throwIfNotFound: true);
         m_PlayerTaxi_Drift = m_PlayerTaxi.FindAction("Drift", throwIfNotFound: true);
         m_PlayerTaxi_Turning = m_PlayerTaxi.FindAction("Turning", throwIfNotFound: true);
+        m_PlayerTaxi_Boost = m_PlayerTaxi.FindAction("Boost", throwIfNotFound: true);
+        m_PlayerTaxi_Jump = m_PlayerTaxi.FindAction("Jump", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -495,13 +524,15 @@ public class @InputMain : IInputActionCollection, IDisposable
         asset.Disable();
     }
 
-    // Player Taxi
+    // PlayerTaxi
     private readonly InputActionMap m_PlayerTaxi;
     private IPlayerTaxiActions m_PlayerTaxiActionsCallbackInterface;
     private readonly InputAction m_PlayerTaxi_Accelerate;
     private readonly InputAction m_PlayerTaxi_Reverse;
     private readonly InputAction m_PlayerTaxi_Drift;
     private readonly InputAction m_PlayerTaxi_Turning;
+    private readonly InputAction m_PlayerTaxi_Boost;
+    private readonly InputAction m_PlayerTaxi_Jump;
     public struct PlayerTaxiActions
     {
         private @InputMain m_Wrapper;
@@ -510,6 +541,8 @@ public class @InputMain : IInputActionCollection, IDisposable
         public InputAction @Reverse => m_Wrapper.m_PlayerTaxi_Reverse;
         public InputAction @Drift => m_Wrapper.m_PlayerTaxi_Drift;
         public InputAction @Turning => m_Wrapper.m_PlayerTaxi_Turning;
+        public InputAction @Boost => m_Wrapper.m_PlayerTaxi_Boost;
+        public InputAction @Jump => m_Wrapper.m_PlayerTaxi_Jump;
         public InputActionMap Get() { return m_Wrapper.m_PlayerTaxi; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -531,6 +564,12 @@ public class @InputMain : IInputActionCollection, IDisposable
                 @Turning.started -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnTurning;
                 @Turning.performed -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnTurning;
                 @Turning.canceled -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnTurning;
+                @Boost.started -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnBoost;
+                @Boost.performed -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnBoost;
+                @Boost.canceled -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnBoost;
+                @Jump.started -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnJump;
+                @Jump.performed -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnJump;
+                @Jump.canceled -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnJump;
             }
             m_Wrapper.m_PlayerTaxiActionsCallbackInterface = instance;
             if (instance != null)
@@ -547,6 +586,12 @@ public class @InputMain : IInputActionCollection, IDisposable
                 @Turning.started += instance.OnTurning;
                 @Turning.performed += instance.OnTurning;
                 @Turning.canceled += instance.OnTurning;
+                @Boost.started += instance.OnBoost;
+                @Boost.performed += instance.OnBoost;
+                @Boost.canceled += instance.OnBoost;
+                @Jump.started += instance.OnJump;
+                @Jump.performed += instance.OnJump;
+                @Jump.canceled += instance.OnJump;
             }
         }
     }
@@ -578,15 +623,6 @@ public class @InputMain : IInputActionCollection, IDisposable
             return asset.controlSchemes[m_XboxSchemeIndex];
         }
     }
-    private int m_GamepadSchemeIndex = -1;
-    public InputControlScheme GamepadScheme
-    {
-        get
-        {
-            if (m_GamepadSchemeIndex == -1) m_GamepadSchemeIndex = asset.FindControlSchemeIndex("Gamepad");
-            return asset.controlSchemes[m_GamepadSchemeIndex];
-        }
-    }
     private int m_SwitchSchemeIndex = -1;
     public InputControlScheme SwitchScheme
     {
@@ -602,5 +638,7 @@ public class @InputMain : IInputActionCollection, IDisposable
         void OnReverse(InputAction.CallbackContext context);
         void OnDrift(InputAction.CallbackContext context);
         void OnTurning(InputAction.CallbackContext context);
+        void OnBoost(InputAction.CallbackContext context);
+        void OnJump(InputAction.CallbackContext context);
     }
 }

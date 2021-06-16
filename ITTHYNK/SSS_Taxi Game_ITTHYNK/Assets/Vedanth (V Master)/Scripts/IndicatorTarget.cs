@@ -6,9 +6,10 @@ using UnityEngine.UI;
 
 public class IndicatorTarget : MonoBehaviour
 {
-    public Sprite PassengerFace;
+    public GameObject PassengerFace;
     public Text Distance;
     public PassDestination DesiredLocation;
+    public string nametarg;
     //Rect canvas;
 
 
@@ -42,6 +43,6 @@ public class IndicatorTarget : MonoBehaviour
     void Awake()
     {
         //canvas = GameObject.FindGameObjectWithTag("Indicator").GetComponent<Canvas>().pixelRect;
-     
+        nametarg = "Person wanna go " +  Random.Range(0,300000)   ;//DesiredLocation.name;   //Create a function later ot add names
     }
 }
