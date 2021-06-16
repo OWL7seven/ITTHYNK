@@ -15,11 +15,12 @@ public class LocationTrackers : MonoBehaviour
 
     public void CreateIndicator(PassDestination DesiredPoint)   //Remember to add the character image later
     {
-        GameObject Target = Instantiate(TargetLocPoint.gameObject, Camera.main.WorldToScreenPoint(DesiredPoint.transform.position), TargetLocPoint.gameObject.transform.rotation);
+        //GameObject Target = Instantiate(TargetLocPoint.gameObject, Camera.main.WorldToScreenPoint(DesiredPoint.transform.position), TargetLocPoint.gameObject.transform.rotation);
+        GameObject Target = TargetLocPoint.gameObject;
         Target.GetComponent<IndicatorTarget>().DesiredLocation = DesiredPoint;
         DesiredPoint.Target = Target.GetComponent<IndicatorTarget>();
         //Target.transform.SetParent(GameObject.FindGameObjectWithTag("Indicator").transform);  
-        Target.transform.SetParent(HoriCompass.Compass.Waypoints.transform);  
+        //Target.transform.SetParent(HoriCompass.Compass.Waypoints.transform);  
 
         HoriCompass.Compass.add(Target.name, new Ways()
         {

@@ -21,7 +21,7 @@ public class IndicatorTarget : MonoBehaviour
             //this.transform.position = Camera.main.WorldToScreenPoint(DesiredLocation.gameObject.transform.position);
             //this.transform.position =   new Vector3(Camera.main.WorldToScreenPoint(DesiredLocation.gameObject.transform.position).x, Camera.main.WorldToScreenPoint(DesiredLocation.gameObject.transform.position).y, this.transform.position.z);
             
-            this.transform.position =   new Vector3(Camera.main.WorldToScreenPoint(DesiredLocation.gameObject.transform.position).x, this.transform.position.y, Camera.main.WorldToScreenPoint(DesiredLocation.gameObject.transform.position).y);
+          //  this.transform.position =   new Vector3(Camera.main.WorldToScreenPoint(DesiredLocation.gameObject.transform.position).x, this.transform.position.y, Camera.main.WorldToScreenPoint(DesiredLocation.gameObject.transform.position).y);
             
             //this.transform.position =   new Vector3(this.transform.position.x, Camera.main.WorldToScreenPoint(DesiredLocation.gameObject.transform.position).x, Camera.main.WorldToScreenPoint(DesiredLocation.gameObject.transform.position).y);
             

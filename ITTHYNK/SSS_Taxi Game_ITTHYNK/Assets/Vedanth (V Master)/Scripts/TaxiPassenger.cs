@@ -8,9 +8,15 @@ public class TaxiPassenger : MonoBehaviour
     GameObject Taxi;
     public float PassTime;
     public PassDestination DestinationPoint;
+    public Color colour;
+    public LineArrow Lines;
+    public int PassNum;
+    public bool dropped = false;
 
     void Start()
     {
+        Lines.enabled = false;
+        colour = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
         PassTime = 0;
         DestinationPoint = GameObject.FindGameObjectWithTag("LocMaster").GetComponent<LocationTrackers>().SetDesPoint();
     }
@@ -28,5 +34,8 @@ public class TaxiPassenger : MonoBehaviour
     {
         DestinationPoint.current = true;
         if(DestinationPoint.Target == null)    GameObject.FindGameObjectWithTag("LocMaster").GetComponent<LocationTrackers>().CreateIndicator(DestinationPoint);
+        //Add in timer function
+        //some function to jump into the taxi
+        Lines.enabled = true;
     }
 }
