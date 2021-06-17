@@ -262,7 +262,7 @@ namespace VehicleBehaviour {
             }
 
             //Speed
-            Debug.Log(throttle);
+           // Debug.Log(throttle);
          //   Acc = Mathf.SmoothStep(Acc, Speed, Time.deltaTime * (rpm * 2));
            // GetComponent<Rigidbody>().AddForce(transform.TransformDirection(Vector3.right) * Acc, ForceMode.Acceleration);
 
@@ -412,10 +412,10 @@ namespace VehicleBehaviour {
                 controls.PlayerTaxi.Drift.performed += ctx => Dri = ctx.ReadValue<float>();      
                 controls.PlayerTaxi.Drift.canceled += ctx => Dri = ctx.ReadValue<float>();      
                 controls.PlayerTaxi.Turning.canceled += ctx => movement = ctx.ReadValue<float>();
-               // controls.PlayerTaxi.Drift.performed += _ => Drifting();
+            // controls.PlayerTaxi.Drift.performed += _ => Drifting();
 
 
-            
+            toogleHandbrake(false);      //This is where the fun begins!
 
 
         }

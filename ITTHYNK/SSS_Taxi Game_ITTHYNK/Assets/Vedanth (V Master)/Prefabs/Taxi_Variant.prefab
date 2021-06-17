@@ -116,6 +116,19 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!65 &9044300132090097412
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4943171517903197106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.81, y: 1.93, z: 5.67}
+  m_Center: {x: 0.25, y: 1.1, z: -0.77}
 --- !u!114 &-6828601090097531943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,6 +141,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 598bacce061155b479459a5293d573fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Passengers: []
+  PassTotal: 0
+  PassDrop: 0
+  Score: 0
+  seating: {fileID: 3955321846311037138}
+--- !u!1 &6602849972724260857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3955321846311037138}
+  m_Layer: 9
+  m_Name: Seating
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3955321846311037138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602849972724260857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.694, z: -1.81}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4939448340235432176}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6400881950674461738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -217,7 +265,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2056908397313433608, guid: 4f3dfb8fdd8a1c24f8b05cbc7dbfc736, type: 3}
       propertyPath: m_Mass
-      value: 1500
+      value: 2500
       objectReference: {fileID: 0}
     - target: {fileID: 2152540678309735240, guid: 4f3dfb8fdd8a1c24f8b05cbc7dbfc736, type: 3}
       propertyPath: speed
@@ -291,6 +339,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -3.57133
       objectReference: {fileID: 0}
+    - target: {fileID: 3878597940349362946, guid: 4f3dfb8fdd8a1c24f8b05cbc7dbfc736, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878597940349362946, guid: 4f3dfb8fdd8a1c24f8b05cbc7dbfc736, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5677ddf5c88f0b3468e7a62bfc2b3f7c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f3dfb8fdd8a1c24f8b05cbc7dbfc736, type: 3}
 --- !u!1 &4943171517903197106 stripped
