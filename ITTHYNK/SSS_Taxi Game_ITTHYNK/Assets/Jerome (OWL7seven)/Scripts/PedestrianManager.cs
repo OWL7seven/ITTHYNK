@@ -39,16 +39,53 @@ public class PedestrianManager : MonoBehaviour
     [SerializeField]
     private List<NavMeshAgent> agents = new List<NavMeshAgent>();
 
+    //list of pedestrians spawn points
+    [SerializeField]
+    private List<Transform> spawnPoints = new List<Transform>();
+
     private void Start()
     {
+        if (randomSpawn)
+        {
+            SpawnRandomPositions();
+        }
+        else
+        {
+            SpawnLocations();
+        }
+    }
+
+    //Spawns peds in random locations of the nav mesh
+    private void SpawnRandomPositions()
+    {
         for (int i = 0; i < numberOfPeds; i++)
-        {            
-            NavMeshAgent agent = Instantiate(Resources.Load<NavMeshAgent>($"Prefabs/Passenger_0{Random.Range(1,numberOfPedPrefabs + 1)}"));
+        {
+            NavMeshAgent agent = Instantiate(Resources.Load<NavMeshAgent>($"Prefabs/Passenger_0{Random.Range(1, numberOfPedPrefabs + 1)}"));
             RandomWalk walk = agent.gameObject.AddComponent<RandomWalk>();
-            walk.m_Range = Random.Range(0, spawnRadius);
-            walk.m_minDistance = 10;
             walk.randomLocation = randomSpawn;
             agents.Add(agent);
+        }
+    }
+
+    //Spawns peds at transform locations create in the children of this gamobject
+    private void SpawnLocations()
+    {
+        foreach (Transform spawn in gameObject.GetComponentsInChildren<Transform>())
+        {
+            spawnPoints.Add(spawn);
+        }
+        foreach (Transform spawn in spawnPoints)
+        {
+            for (int i = 0; i < numberOfPeds; i++)
+            {
+                NavMeshAgent agent = Instantiate(Resources.Load<NavMeshAgent>($"Prefabs/Passenger_0{Random.Range(1, numberOfPedPrefabs + 1)}"));
+                agent.transform.position = spawn.transform.position;
+                agent.destination = spawn.transform.position;                
+                RandomWalk walk = agent.gameObject.AddComponent<RandomWalk>();
+                walk.m_minDistance = 1;
+                walk.randomLocation = false;
+                agents.Add(agent);
+            }
         }
     }
 }
