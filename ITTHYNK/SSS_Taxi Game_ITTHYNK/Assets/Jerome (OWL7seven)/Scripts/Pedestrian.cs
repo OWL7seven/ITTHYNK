@@ -23,6 +23,7 @@ public class Pedestrian : MonoBehaviour
                 agent.isStopped = true;
                 agent.enabled = false;
             }
+            GetComponent<CapsuleCollider>().enabled = false;
             enabled = false;
         }
     }
