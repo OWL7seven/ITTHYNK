@@ -373,6 +373,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1951560811437012752, guid: 6c8e05ae8a1c2bc45bde1c48b446e4ca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2421633277817790016, guid: 6c8e05ae8a1c2bc45bde1c48b446e4ca, type: 3}
       propertyPath: m_Name
       value: Passenger_01
@@ -1788,6 +1792,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5439349341920677101, guid: 26122e142bd83ff409ad717a92bd7690, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5439349341920677101, guid: 26122e142bd83ff409ad717a92bd7690, type: 3}
       propertyPath: m_WarningMessage
       value: "\nBinding warning: Some generic clip(s) animate transforms that are
         already bound by a Humanoid avatar. These transforms can only be changed
@@ -1928,6 +1936,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4507298632984222300, guid: 62c8d25116695564da47ff672093804f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8599833378655535723, guid: 62c8d25116695564da47ff672093804f, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8599833378655535723, guid: 62c8d25116695564da47ff672093804f, type: 3}
