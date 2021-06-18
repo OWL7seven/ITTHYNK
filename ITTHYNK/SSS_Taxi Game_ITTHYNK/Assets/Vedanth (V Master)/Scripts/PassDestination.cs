@@ -54,7 +54,7 @@ public class PassDestination : MonoBehaviour
                             current = false;
 
                             //Jerome
-                            PedestrianManager.Instance.GetActivePeds().Clear();
+                            PedestrianManager.Instance.RemovePedestrian(boi);
                             //
                         }
                     }

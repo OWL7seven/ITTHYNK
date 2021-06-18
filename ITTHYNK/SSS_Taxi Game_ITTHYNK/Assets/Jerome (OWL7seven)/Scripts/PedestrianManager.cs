@@ -161,6 +161,11 @@ public class PedestrianManager : MonoBehaviour
         }
     }
 
+    public void RemovePedestrian(TaxiPassenger taxiPassenger)
+    {
+        activePeds.Remove(taxiPassenger.GetComponent<Pedestrian>());
+    }
+
     public List<Pedestrian> GetActivePeds()
     {
         return activePeds;
