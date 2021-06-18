@@ -16,6 +16,10 @@ public class TaxiPassenger : MonoBehaviour
 
     //Jerome
     private Pedestrian pedestrian;
+    public Pedestrian GetPedestrian()
+    {
+        return pedestrian;
+    }
     //
 
     void Start()

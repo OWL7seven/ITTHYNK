@@ -23,25 +23,12 @@ public class PedestrianManager : MonoBehaviour
 
     //Number of pedestrians to spawn
     [SerializeField]
+    [Range(1, 15)]
     private int numberOfActivePeds = 1;
-
-    //Random spawning of pedestrians
-    [SerializeField]
-    private bool randomSpawn;
-
-    //Pedestrian spawn radius
-    [SerializeField]
-    private float spawnRadius = 25f;
 
     //Pedestrian pickup radius
     [SerializeField]
     private float pickUpRadius = 10f;
-
-    //Number of predestrian prefabs found in the resources
-    //Hard coded for now
-    //Will create a search fucntion that will check for current amount
-    [SerializeField]
-    private int numberOfPedPrefabs = 3;
 
     //list of active pedestrians
     [SerializeField]
@@ -54,6 +41,21 @@ public class PedestrianManager : MonoBehaviour
     //list of pedestrians that are active
     [SerializeField]
     private List<Pedestrian> activePeds = new List<Pedestrian>();
+
+    [Header("Debug")]
+    //Random spawning of pedestrians
+    [SerializeField]
+    private bool randomSpawn;
+
+    //Pedestrian spawn radius
+    [SerializeField]
+    private float spawnRadius = 25f;
+
+    //Number of predestrian prefabs found in the resources
+    //Hard coded for now
+    //Will create a search fucntion that will check for current amount
+    [SerializeField]
+    private int numberOfPedPrefabs = 3;
 
     private void Start()
     {
@@ -107,7 +109,7 @@ public class PedestrianManager : MonoBehaviour
         agent.destination = spawn.transform.position;
 
         RandomWalk walk = agent.gameObject.AddComponent<RandomWalk>();
-        walk.m_minDistance = 1;
+        walk.minDistance = 1;
         walk.randomLocation = false;
 
         Pedestrian ped = agent.gameObject.AddComponent<Pedestrian>();
@@ -124,7 +126,7 @@ public class PedestrianManager : MonoBehaviour
 
     private void ActivatePedestrians()
     {
-        if (activePeds.Count == 0)
+        if (activePeds.Count < numberOfActivePeds)
         {
             for (int i = 0; i < agents.Count; i++)
             {
@@ -163,7 +165,7 @@ public class PedestrianManager : MonoBehaviour
 
     public void RemovePedestrian(TaxiPassenger taxiPassenger)
     {
-        activePeds.Remove(taxiPassenger.GetComponent<Pedestrian>());
+        activePeds.Remove(taxiPassenger.GetPedestrian());        
     }
 
     public List<Pedestrian> GetActivePeds()
