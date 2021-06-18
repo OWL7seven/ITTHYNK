@@ -42,7 +42,7 @@ public class RandomWalk : MonoBehaviour
             atTarget = false;
         }
 
-        GetArea();
+       // GetArea();
     }
     public Vector3 RandomNavmeshLocation(float radius)
     {

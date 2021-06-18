@@ -52,6 +52,10 @@ public class PassDestination : MonoBehaviour
                             boi.dropped = true;
                             boi.PassCell.gameObject.SetActive(false);
                             current = false;
+
+                            //Jerome
+                            PedestrianManager.Instance.GetActivePeds().Clear();
+                            //
                         }
                     }
                 }

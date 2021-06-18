@@ -14,12 +14,18 @@ public class TaxiPassenger : MonoBehaviour
     public bool dropped = false;
     public PassengerCell PassCell;
 
+    //Jerome
+    private Pedestrian pedestrian;
+    //
+
     void Start()
     {
         Lines.enabled = false;
         colour = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
         PassTime = 0;
-        DestinationPoint = GameObject.FindGameObjectWithTag("LocMaster").GetComponent<LocationTrackers>().SetDesPoint();
+        DestinationPoint = LocationTrackers.Instance.SetDesPoint();
+
+        pedestrian = gameObject.GetComponentInParent<Pedestrian>();
     }
 
     void Update()
@@ -34,6 +40,13 @@ public class TaxiPassenger : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
+            //Jerome
+            if (!pedestrian.active)
+            {
+                 return;
+            }
+            //
+
             other.gameObject.GetComponent<TaxiFeeMachine>().Passengers.Add(this);
             PassNum = other.gameObject.GetComponent<TaxiFeeMachine>().Passengers.Count;
             this.gameObject.transform.position = other.gameObject.GetComponent<TaxiFeeMachine>().seating.position;
@@ -42,6 +55,10 @@ public class TaxiPassenger : MonoBehaviour
             this.gameObject.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);    //Temp solution
             if(PassCell == null)   CellGenerate();
             Picked = true;
+
+            //Jerome
+            pedestrian.EnterTaxi();
+            //
         }
     }
 

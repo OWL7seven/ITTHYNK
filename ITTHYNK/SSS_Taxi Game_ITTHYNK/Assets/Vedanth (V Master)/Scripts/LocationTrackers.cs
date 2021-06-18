@@ -9,8 +9,14 @@ public class LocationTrackers : MonoBehaviour
     public IndicatorTarget TargetLocPoint;
     public PassengerCell PCell;
 
+    //Jerome
+    public static LocationTrackers Instance;
+    //
     private void Awake()
     {
+        //Jerome
+        Instance = this;
+        //
         Locations = GameObject.FindGameObjectsWithTag("Loc");
     }
 

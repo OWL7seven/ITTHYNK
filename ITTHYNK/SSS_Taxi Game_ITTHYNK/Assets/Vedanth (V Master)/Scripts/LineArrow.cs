@@ -5,13 +5,13 @@ using UnityEngine;
 public class LineArrow : MonoBehaviour
 {
     public float width = 0.75f;
-    LineRenderer Line;
+    public LineRenderer Line;
     public Material mat;
     public TaxiPassenger Passenger;
 
     private void Start()
     {
-        Line = this.gameObject.AddComponent<LineRenderer>();
+        Line = gameObject.AddComponent<LineRenderer>();
         Line.startWidth = width;
         Line.endWidth = width;
         Line.positionCount = 2;
