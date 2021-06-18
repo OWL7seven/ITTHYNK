@@ -52,8 +52,11 @@ namespace VehicleBehaviour {
 
         public WheelCollider[] TurnWheel { get { return turnWheel; } }
 
+
+
+
         // This code checks if the car is grounded only when needed and the data is old enough
-        bool isGrounded = false;
+        public bool isGrounded = false;
         int lastGroundCheck = 0;
         public bool IsGrounded { get {
             if (lastGroundCheck == Time.frameCount)
@@ -413,12 +416,20 @@ namespace VehicleBehaviour {
                 controls.PlayerTaxi.Drift.canceled += ctx => Dri = ctx.ReadValue<float>();      
                 controls.PlayerTaxi.Turning.canceled += ctx => movement = ctx.ReadValue<float>();
             // controls.PlayerTaxi.Drift.performed += _ => Drifting();
+                controls.PlayerTaxi.Reset.performed += ctx => ResetPoint();
 
 
-            toogleHandbrake(false);      //This is where the fun begins!
+                 toogleHandbrake(false);      //This is where the fun begins!
 
 
         }
+
+
+        void ResetPoint()
+        {
+            if(this.GetComponent<TaxiFeeMachine>().Grounded == false)  this.GetComponent<RespawnTaxi>().RespawnToLastPoint();
+        }
+
 
     }
 }

@@ -7,6 +7,7 @@ public class LocationTrackers : MonoBehaviour
 {
     public GameObject[] Locations;
     public IndicatorTarget TargetLocPoint;
+    public PassengerCell PCell;
 
     private void Awake()
     {
@@ -22,12 +23,14 @@ public class LocationTrackers : MonoBehaviour
         //Target.transform.SetParent(GameObject.FindGameObjectWithTag("Indicator").transform);  
         //Target.transform.SetParent(HoriCompass.Compass.Waypoints.transform);  
 
-        HoriCompass.Compass.add(Target.name, new Ways()
+
+        //Waypoint icon for Compass
+      /*  HoriCompass.Compass.add(Target.name, new Ways()
         {
             PassengerFace = Target.GetComponent<IndicatorTarget>().PassengerFace.transform.parent.transform,
             Player = HoriCompass.Compass.PlayerTaxi,
             DesiredLocation = Target.GetComponent<IndicatorTarget>().DesiredLocation.transform
-        }); ;
+        }); ;*/
 
     }
 

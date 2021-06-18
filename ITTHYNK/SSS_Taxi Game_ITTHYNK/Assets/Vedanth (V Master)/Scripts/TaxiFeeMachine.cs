@@ -11,16 +11,47 @@ public class TaxiFeeMachine : MonoBehaviour
     public static TaxiFeeMachine instance;
     public Transform seating;
 
+    public Vector3 PrevLoc;
+    float LocTime;
+    public bool Grounded;
+
+
     private void Awake()
     {
         instance = this;
         PassTotal = 0;
         PassDrop = 0;
         Score = 0;
+        PrevLoc = this.transform.position;
+        Grounded = false;
+        LocTime = 2;
+    }
 
-     
+    void GroundCheck()
+    {
+        if (LocTime <= 0)
+        {
+            if (Grounded == true) PrevLoc = transform.position;
+            LocTime = 2;
+        }
+        LocTime -= Time.deltaTime;
     }
 
 
+    private void Update()
+    {
+        GroundCheck();
+    }
+
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.tag == "Road") Grounded = true; //else Grounded = false;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Road") Grounded = false;
+    }
 
 }

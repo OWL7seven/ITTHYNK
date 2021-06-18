@@ -65,6 +65,14 @@ public class @InputMain : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Reset"",
+                    ""type"": ""Button"",
+                    ""id"": ""da5f1d75-2e9a-4d5d-b6e6-84f1edea3551"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -159,7 +167,7 @@ public class @InputMain : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""b17c90e2-dedc-46a5-893e-d4732e8202c3"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""path"": ""<Keyboard>/b"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
@@ -419,6 +427,50 @@ public class @InputMain : IInputActionCollection, IDisposable
                     ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cb867e67-f119-45e1-a7b6-cc272ebcdc0c"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Reset"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""65e3bfad-0940-4aab-abf4-c1096c1b8b64"",
+                    ""path"": ""<DualShockGamepad>/buttonNorth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Playstation"",
+                    ""action"": ""Reset"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""805f11d2-1233-4ea1-8bde-05c5b2efced9"",
+                    ""path"": ""<XInputController>/buttonNorth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Xbox"",
+                    ""action"": ""Reset"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6ac85e34-eff0-4093-b815-5c18bc36e9ab"",
+                    ""path"": ""<SwitchProControllerHID>/buttonNorth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Switch "",
+                    ""action"": ""Reset"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -478,6 +530,7 @@ public class @InputMain : IInputActionCollection, IDisposable
         m_PlayerTaxi_Turning = m_PlayerTaxi.FindAction("Turning", throwIfNotFound: true);
         m_PlayerTaxi_Boost = m_PlayerTaxi.FindAction("Boost", throwIfNotFound: true);
         m_PlayerTaxi_Jump = m_PlayerTaxi.FindAction("Jump", throwIfNotFound: true);
+        m_PlayerTaxi_Reset = m_PlayerTaxi.FindAction("Reset", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -533,6 +586,7 @@ public class @InputMain : IInputActionCollection, IDisposable
     private readonly InputAction m_PlayerTaxi_Turning;
     private readonly InputAction m_PlayerTaxi_Boost;
     private readonly InputAction m_PlayerTaxi_Jump;
+    private readonly InputAction m_PlayerTaxi_Reset;
     public struct PlayerTaxiActions
     {
         private @InputMain m_Wrapper;
@@ -543,6 +597,7 @@ public class @InputMain : IInputActionCollection, IDisposable
         public InputAction @Turning => m_Wrapper.m_PlayerTaxi_Turning;
         public InputAction @Boost => m_Wrapper.m_PlayerTaxi_Boost;
         public InputAction @Jump => m_Wrapper.m_PlayerTaxi_Jump;
+        public InputAction @Reset => m_Wrapper.m_PlayerTaxi_Reset;
         public InputActionMap Get() { return m_Wrapper.m_PlayerTaxi; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -570,6 +625,9 @@ public class @InputMain : IInputActionCollection, IDisposable
                 @Jump.started -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnJump;
                 @Jump.performed -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnJump;
                 @Jump.canceled -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnJump;
+                @Reset.started -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnReset;
+                @Reset.performed -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnReset;
+                @Reset.canceled -= m_Wrapper.m_PlayerTaxiActionsCallbackInterface.OnReset;
             }
             m_Wrapper.m_PlayerTaxiActionsCallbackInterface = instance;
             if (instance != null)
@@ -592,6 +650,9 @@ public class @InputMain : IInputActionCollection, IDisposable
                 @Jump.started += instance.OnJump;
                 @Jump.performed += instance.OnJump;
                 @Jump.canceled += instance.OnJump;
+                @Reset.started += instance.OnReset;
+                @Reset.performed += instance.OnReset;
+                @Reset.canceled += instance.OnReset;
             }
         }
     }
@@ -640,5 +701,6 @@ public class @InputMain : IInputActionCollection, IDisposable
         void OnTurning(InputAction.CallbackContext context);
         void OnBoost(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+        void OnReset(InputAction.CallbackContext context);
     }
 }

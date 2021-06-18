@@ -12,6 +12,7 @@ public class TaxiPassenger : MonoBehaviour
     public LineArrow Lines;
     public int PassNum;
     public bool dropped = false;
+    public PassengerCell PassCell;
 
     void Start()
     {
@@ -39,16 +40,26 @@ public class TaxiPassenger : MonoBehaviour
             starttime = Time.deltaTime;
             this.gameObject.transform.SetParent(other.gameObject.GetComponent<TaxiFeeMachine>().seating);
             this.gameObject.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);    //Temp solution
+            if(PassCell == null)   CellGenerate();
             Picked = true;
         }
     }
 
+    void CellGenerate()
+    {
+        GameObject Cell = Instantiate(GameObject.FindGameObjectWithTag("LocMaster").GetComponent<LocationTrackers>().PCell.gameObject, GameObject.FindGameObjectWithTag("Pass").transform.position, GameObject.FindGameObjectWithTag("LocMaster").GetComponent<LocationTrackers>().PCell.gameObject.transform.rotation);
+        Cell.transform.SetParent(GameObject.FindGameObjectWithTag("Pass").transform);
+        PassCell = Cell.GetComponent<PassengerCell>();
+        PassCell.Pass = this;
+    }
 
     void TimeToRide()
     {
         DestinationPoint.current = true;
         if(DestinationPoint.Target == null)    GameObject.FindGameObjectWithTag("LocMaster").GetComponent<LocationTrackers>().CreateIndicator(DestinationPoint);
-        if (dropped == false) PassTime = Time.deltaTime - starttime;
+        //if (dropped == false) PassTime = Time.deltaTime - starttime;
+        if (dropped == false) PassTime += Time.deltaTime;
         Lines.enabled = true;
+       // Debug.Log(PassTime);
     }
 }

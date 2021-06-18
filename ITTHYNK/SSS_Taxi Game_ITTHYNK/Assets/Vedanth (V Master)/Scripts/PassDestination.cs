@@ -10,6 +10,11 @@ public class PassDestination : MonoBehaviour
     public bool current = false;
     public IndicatorTarget Target;
 
+    private void Start()
+    {
+        this.name = LocationName;
+    }
+
     public void notCurrent()
     {
         current = false;
@@ -45,6 +50,7 @@ public class PassDestination : MonoBehaviour
                             boi.gameObject.transform.position = this.transform.position;
                             boi.transform.SetParent(this.transform);
                             boi.dropped = true;
+                            boi.PassCell.gameObject.SetActive(false);
                             current = false;
                         }
                     }

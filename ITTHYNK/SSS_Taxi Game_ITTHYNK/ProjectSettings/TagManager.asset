@@ -8,6 +8,8 @@ TagManager:
   - Loc
   - LocMaster
   - Indicator
+  - Road
+  - Pass
   layers:
   - Default
   - TransparentFX
