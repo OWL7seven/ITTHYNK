@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using VCompass;
+using UnityEngine.UI;
 
 public class LocationTrackers : MonoBehaviour
 {
     public GameObject[] Locations;
     public IndicatorTarget TargetLocPoint;
     public PassengerCell PCell;
+    public Sprite[] PassengerFaces;
+    public GameObject CardHolder;
+    public PassengerCards PassCardBase;
+
 
     //Jerome
     public static LocationTrackers Instance;

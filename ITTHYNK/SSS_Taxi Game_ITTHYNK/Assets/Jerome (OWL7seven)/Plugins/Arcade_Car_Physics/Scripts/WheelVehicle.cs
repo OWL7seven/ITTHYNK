@@ -8,6 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 #if MULTIOSCONTROLS
     using MOSC;
@@ -427,9 +428,12 @@ namespace VehicleBehaviour {
 
         void ResetPoint()
         {
-            if(this.GetComponent<TaxiFeeMachine>().Grounded == false)  this.GetComponent<RespawnTaxi>().RespawnToLastPoint();
+            if (this.GetComponent<TaxiFeeMachine>().Grounded == false) RestartScene();  //this.GetComponent<RespawnTaxi>().RespawnToLastPoint();
         }
 
-
+        void RestartScene()
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }

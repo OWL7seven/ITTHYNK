@@ -51,6 +51,7 @@ public class PassDestination : MonoBehaviour
                             boi.transform.SetParent(this.transform);
                             boi.dropped = true;
                             boi.PassCell.gameObject.SetActive(false);
+                            boi.Card.gameObject.SetActive(true);
                             current = false;
 
                             //Jerome
