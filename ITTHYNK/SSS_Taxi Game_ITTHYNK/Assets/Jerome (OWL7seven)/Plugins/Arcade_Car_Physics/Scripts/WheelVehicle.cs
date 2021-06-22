@@ -417,7 +417,7 @@ namespace VehicleBehaviour {
                 controls.PlayerTaxi.Drift.canceled += ctx => Dri = ctx.ReadValue<float>();      
                 controls.PlayerTaxi.Turning.canceled += ctx => movement = ctx.ReadValue<float>();
             // controls.PlayerTaxi.Drift.performed += _ => Drifting();
-                controls.PlayerTaxi.Reset.performed += ctx => ResetPoint();
+            controls.PlayerTaxi.Reset.performed += ctx => RestartScene(); //ResetPoint();
 
 
                  toogleHandbrake(false);      //This is where the fun begins!
